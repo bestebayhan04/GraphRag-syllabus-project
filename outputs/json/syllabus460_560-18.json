@@ -1,0 +1,25 @@
+{
+    "source_file": "syllabus460_560-18.pdf",
+    "course_code": "CS460/560",
+    "course_title": "Automated Debugging",
+    "prerequisites": [],
+    "corequisites": [],
+    "topics": [
+        "How Failures Come To Be",
+        "Tracking Problems",
+        "Making Programs Fail",
+        "Reproducing Problems",
+        "Simplifying Problems",
+        "Scientific Debugging",
+        "Deducing Errors",
+        "Mining and Detecting Anomalies",
+        "Observing Facts I",
+        "Observing Facts II",
+        "Tracking Origins",
+        "Asserting Expectations"
+    ],
+    "learning_outcomes": [
+        "Identifying root causes of failures is the hardest, thus the most expensive component of debugging.",
+        "Automated approaches help developers quickly and accurately pinpoint the root causes of failures."
+    ]
+}

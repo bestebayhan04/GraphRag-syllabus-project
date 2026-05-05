@@ -1,0 +1,58 @@
+[
+    {
+        "subject": "CS449/549",
+        "relation": "HAS_TOPIC",
+        "object": "Human -Computer Interaction",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS449/549",
+        "relation": "HAS_TOPIC",
+        "object": "Interaction Between People And Digital Systems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS449/549",
+        "relation": "HAS_TOPIC",
+        "object": "User-Centered Design (Ucd) Principles",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS449/549",
+        "relation": "HAS_TOPIC",
+        "object": "Scientific Study Of Human Behaviour In Digital Environments",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS449/549",
+        "relation": "HAS_TOPIC",
+        "object": "Usability Problems In Real-World Technologies",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS449/549",
+        "relation": "HAS_TOPIC",
+        "object": "Contemporary Hci Frameworks",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS449/549",
+        "relation": "HAS_TOPIC",
+        "object": "High-Fidelity Prototypes Using Tools Such As Figma, Mediapipe, And Opencv",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS449/549",
+        "relation": "HAS_TOPIC",
+        "object": "Big Data Analytics And Visualization Platforms",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    }
+]

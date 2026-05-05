@@ -1,0 +1,138 @@
+
+--- Page 1 ---
+ Print
+ Syllabus Application
+su 
+CS 300
+Data Structures
+Faculty Faculty of Engineering and Natural Sciences
+Semester Spring 2025-2026
+Course CS 300 - Data Structures
+Time/Place Time Week Day Place Date
+16:40-17:30 Mon FASS-G062 Feb 16-May 22, 2026
+12:40-14:30 Tue UC-G030 Feb 16-May 22, 2026
+Level of course Undergraduate
+Course Credits SU Credit:3, ECTS:6, Basic:1, Engineering:5
+Prerequisites CS 204
+Corequisites CS 300R
+Course Type Lecture
+Program Requirements
+
+Instructor(s) Information
+Course TAs and LAs Office Hours:
+OFFICE HOURS
+Saima Gül
+Email: saima.gul@sabanciuniv.edu
+4/27/26, 1:09 PM Syllabus-CS300-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20196&origin=www_syllabus 1/5
+
+--- Page 2 ---
+Course Information
+Catalog Course Description
+This course covers some of the fundamental data structures as well as the algorithms operating
+on them. Topics included are: Introduction to theoretical aspects of computing: modeling
+algorithms and their run times, computational complexity. Linear data structures (lists, stacks,
+queues), trees (binary search trees, AVL trees, tree traversals), hash tables, priority queues,
+disjoint sets, sorting algorithms, graphs and their representations, graph algorithms (depth first
+and breadth first search, single source shortest path algorithms), sorting algorithms, algorithmic
+paradigms (divide and conquer, greedy, dynamic programming).
+Course Learning Outcomes:
+1. describe common data structures and associated algorithms
+2. contrast the advantages and disadvantages of these data structures
+3. apply these data structures to develop algorithmic solutions to practical problems
+4. design new data structures and associated algorithms
+5. analyze the computational complexity of simple algorithms and programs
+Course Objective
+To introduce fundamental techniques of algorithm analysis
+To introduce common data structures, their properties and implementation
+To apply C++ programming skills to implement solutions using common data structures to
+practical problems
+-
+Course Materials
+Resources:
+Data Structures & Algorithm Analysis in C++, (2nd, 3rd, or 4th edition), Mark Allen Weiss,
+Pearson, 2014, ISBN 0-273-76938-3 (4th edition).
+Technology Requirements:
+4/27/26, 1:09 PM Syllabus-CS300-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20196&origin=www_syllabus 2/5
+
+--- Page 3 ---
+Assessment
+The final grade for this course will be based on:
+  Percentage (%) Number of assessment methods
+Final 35%
+Midterm 45% 2
+Homework 20% 5
+Exam Schedule:
+Time Event Details
+Mar 31, 2026 12:40 Midterm: MidTerm-1
+May 9, 2026 13:00 Midterm: MidTerm-2
+Policies
+Course Policies:
+Attendance: 
+Throughout the course, the instructor may cover material beyond the textbook and Lecture
+slides. Accordingly, exam questions may be based on any topic discussed during lectures or
+recitation sessions. Students are therefore strongly advised to attend all classes regularly.
+Make-Up:
+1. No makeups for missed homeworks.
+2. If you miss one exam (either a midterm or the final) due to a documented valid excuse (e.g.,
+an official medical report), and the instructor is notified within 48 hours of the exam, you will be
+permitted to take a make-up exam after the final examination period.
+Students may not miss more than one exam. If more than one exam is missed, the make-up
+exam will replace only the highest-weighted missed exam, and all remaining missed exam(s) will
+receive a grade of zero.
+3. Make-up exams are often more comprehensive and cover all topics taught in the course from
+start to end.
+4/27/26, 1:09 PM Syllabus-CS300-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20196&origin=www_syllabus 3/5
+
+--- Page 4 ---
+Late Submission:
+Late submission will be accepted for up to one day, with a penalty of 10 points. 
+Academic Integrity:
+Sharing work or submitting similar solutions (with other students or AI) is considered plagiarism.
+Plagiarism cases will be referred to the Dean’s Office for disciplinary action.
+Special Notes:
+Students are responsible for announcements made in lectures, SUCourse+, and email.
+Regularly check your Sabancı University email.
+Failure to follow announcements is not a valid excuse.
+Use of AI:
+It is strongly recommend that you avoid using AI tools (such as ChatGPT) as much as possible
+and use them very responsibly.
+You may use AI tools to enhance your learning and improve your understanding of the course
+material; however, generating complete homework solutions using these tools is not permitted.
+Homework submissions found to rely excessively on LLM-generated content may receive a
+grade of zero and/or require the student to complete an oral examination.
+The use of LLMs or any AI tools during quizzes or exams, or to generate complete homework
+submissions, is strictly prohibited. Such use constitutes a violation of academic integrity and will
+result in disciplinary action if detected.
+AI Policies
+Guidelines on the "Use of Generative AI" for students
+SU Academic Integrity Statement:
+https://www.sabanciuniv.edu/en/academic-integrity-statement
+Health Report Requirements
+Student Medical Reports Instruction Letter 
+Weekly Content
+Week Topic
+Week 1 Overview
+Week 2 Algorithm Analysis
+Week 3 Linear Data Structures 1 ( Linked List)
+Week 4 Linear Data Structures 2 (Stacks, Queues)
+4/27/26, 1:09 PM Syllabus-CS300-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20196&origin=www_syllabus 4/5
+
+--- Page 5 ---
+Week Topic
+Week 5 Trees 1
+Week 6 Trees 2
+Week 7 Hash Tables
+Week 8 Heaps (Priority Queues)
+Week 9 Sorting 1
+Week 10 Sorting 2
+Week 11 Disjoint Sets
+Week 12 Graph Data Structures 1
+Week 13 Graph Data Structures 2
+Week 14 Algorithm Design Techniques
+© 2026 Sabancı University
+4/27/26, 1:09 PM Syllabus-CS300-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20196&origin=www_syllabus 5/5

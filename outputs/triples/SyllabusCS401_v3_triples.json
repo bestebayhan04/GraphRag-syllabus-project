@@ -1,0 +1,65 @@
+[
+    {
+        "subject": "CS401",
+        "relation": "HAS_TOPIC",
+        "object": "Instruction Set Design",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS401",
+        "relation": "HAS_TOPIC",
+        "object": "Computer Arithmetic",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS401",
+        "relation": "HAS_TOPIC",
+        "object": "Controller And Datapath Design",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS401",
+        "relation": "HAS_TOPIC",
+        "object": "Cache And Memory Systems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS401",
+        "relation": "HAS_TOPIC",
+        "object": "Input-Output Systems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS401",
+        "relation": "HAS_TOPIC",
+        "object": "Interrupts And Exceptions",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS401",
+        "relation": "HAS_TOPIC",
+        "object": "Pipelining",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS401",
+        "relation": "HAS_TOPIC",
+        "object": "Performance",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS401",
+        "relation": "HAS_PREREQ",
+        "object": "CS303",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

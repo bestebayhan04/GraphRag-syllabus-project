@@ -1,0 +1,111 @@
+--- Page 1 ---
+CS 411/507 - Cryptography*
+Fall 2025 - 2026
+Instructor Information
+Name:Erkay Sava¸ s
+Office:FENS 2037
+Email:erkays@sabanciuniv.edu
+Office Hours:Wednesday 16:40-18:30 (FENS 2037)
+Schedule
+Lectures:Wednesday 18:40 - 19:30 FMAN G071
+Thursday 17:40 - 19:30 FMAN G071
+This is a three-credit introductory course on the methods, algorithms, techniques, and tools of data
+security and cryptography . After studying the theoretical aspects of cryptographic algorithms and
+protocols, we show how these techniques can be integrated to solve particular data and communi-
+cation security problems. This course material is of use to computer and communication engineers
+who are interested in embedding security into an information system, and thus, providing integrity ,
+confidentiality , and authenticity of the documents and the communicating parties.
+Catalogue Data
+This is an introductory course on cryptography . Topics include: Classical cryptosystems, basics of
+number theory , symmetric key cryptography (stream and block ciphers), hash functions, public key
+cryptosystems (RSA, discrete logarithm based algorithms, and elliptic curve cryptography (ECC)),
+digital signatures, implementation issues, secure key establishment techniques, secret sharing, and
+zero-knowledge proof.
+Prerequisite
+CS 411 is open to any undergraduate students, who have previously taken MATH 204 – Discrete
+Mathematics - and scored minimum grade of D. Additionally , some experience in Python program-
+ming language is required.
+CS 507 is open to graduate students. There is no prerequisite for CS 507.
+Tentative Outline
+•Introduction and Classical Cryptosystems:Secure communication. Attacks to cryptosys-
+tems. Classical cryptographic techniques and algorithms. One-time pad, randomness and
+pseudo-randomness
+•Mathematical Foundations:Number theory . Finite fields. Primitive roots. Exponentiation
+and discrete logarithm.
+*All information in this document is tentative. The instructors reserve the right to make changes in the semester.
+
+--- Page 2 ---
+•Secret-Key Cryptography:Block ciphers and stream ciphers. DES, AES (Rijndael). Modes of
+operation.
+•Public-Key Cryptography:One-way functions. Trapdoor one-way functions. Public-key cryp-
+tosystems. RSA, Diffie-Hellman, ElGamal, and elliptic curve cryptosystems.
+•Authentication and Digital Signatures:Hash functions and message-digest functions. Digi-
+tal signatures. Authentication protocols, forward secrecy , plausible deniability .
+•Protocols:Secret Sharing Schemes, Zero-knowledge proof systems. Key management archi-
+tectures, Public Key Infrastructure.
+Textbook
+Nigel P. Smart. Cryptography Made Simple. Springer, 2016. ISBN 978-3-319-21936-3
+References
+W. Trappe and Lawrence C. Washington, Introduction to Cryptography with Coding Theory . 2 nd
+Edition , Prentice Hall, 2006.
+C. Paar and J. Pelzl, Understanding Cryptography, Springer 2010
+A. J. Menezes P. C. van Oorschot, and S. A Vanstone. Handbook of Applied Cryptography , CRC
+Press, 1997.
+D. R. Stinson, Cryptography: Theory and Practice, 3rd Edition, Chapman Hall/CRC, 2006.
+Student Responsibilities
+•Exams:Students are required to comply with instructor’s rules for exams (quizzes, midterm,
+and final)
+•Homework assignments:There will be about four homework assignments. You will be
+required to write programs in Python programming language.
+•Term project:Students are required to work on a term project. It is essential for stu-
+dents to meet time schedule of the projects. Project groups must provide a demonstra-
+tion/presentation of their work. During the demonstration/presentation, all the project mem-
+bers must be present. Students may work in groups of two.
+Tentative Grading
+• Midterm Exam 30%
+• Final Exam 40 %
+• Term Project 15%
+• Homeworks (Total 4(±1)) 15%
+The letter grade boundaries will be determined by the instructors at the end of the term. In
+order to pass the course, the overall grade has to be higher than D/F boundry and the final exam
+grade has to be higher than 25/100.
+Exams will be held in-person.
+2 of 3
+
+--- Page 3 ---
+Exam Dates
+Midterm:TBA (possibly 8 th or 9th week of the term)
+Final:will be scheduled by SR
+Make-up Policy
+• There will be no make-up for homeworks, and term project. Students automatically get 0
+(zero) from the respective assignment grade if any of them is missed.
+• Make-up is only allowed for the midterm and final examinations to those with an official
+medical report and to those with an official permission notice from the university on the date
+of the exam in question.
+• Make-up examinations may be written and/or oral.
+Time Conflict Permission Policy
+In general, time conflict permission requests are approved in this course 1. However, time con-
+flict permission is not a permission for you not to attend some classes. Moreover, it does not mean
+that, time conflicts will be taken into account when planning any activity (exam, quiz, etc.) for the
+corresponding hour. It is the responsibility of the student, who took time conflict permission, to
+manage potential problems that may arise due to time conflict.
+It is assumed that the students, who are registered to this course with time conflict permission,
+accept these terms.
+Plagiarism Policy (Academic Integrity)
+Plagiarism means presenting someone else’s work as yours. This is a very serious and ethical
+problem. A plagiarized work may or may not be a verbatim copy of another submission. Verbatim
+copies are of course plagiarized ones. However, if a submission is derived from another one by
+partially changing or rephrasing some parts, this action is also plagiarism. When a plagiarism case
+is detected, sanctions are applied to all parties regardless of the actual source of the submission.
+These sanctions are as follows:
+• For the midterm/final examinations,
+– students directly fail the course, even in the first offense. 2
+• For the homeworks and term project,
+– for the first time, all plagiarized submission owners receive 0,
+– the second time, the student fails the course automatically .3
+1The instructors reserve the right to reject any request.
+2 Additionally , the case will be referred to the FENS Dean’s Office for disciplinary action. This course does not tolerate
+any breach of academic integrity (more info on https://www.sabanciuniv.edu/en/academic-integrity-statement)
+3See footnote 2
+3 of 3
+

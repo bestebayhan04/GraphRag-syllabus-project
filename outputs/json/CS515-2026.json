@@ -1,0 +1,24 @@
+{
+    "source_file": "CS515-2026.pdf",
+    "course_code": "CS515",
+    "course_title": "Deep Learning",
+    "prerequisites": [
+        "CS412",
+        "CS512",
+        "EE566"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Artificial Neural Networks (ANN)",
+        "Single and multi-layer perceptrons",
+        "Hopfield and Kohonen networks",
+        "Convolutional neural networks",
+        "Recurrent networks",
+        "Autoencoders",
+        "Generative adversarial networks",
+        "Transformers"
+    ],
+    "learning_outcomes": [
+        "Develop deep learning systems for machine learning problems in computer vision and/or natural language understanding."
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "source_file": "Syllabus-CS301-202502.pdf",
+    "course_code": "CS301",
+    "course_title": "Algorithms",
+    "prerequisites": [
+        "MATH204",
+        "CS300"
+    ],
+    "corequisites": [
+        "CS301R"
+    ],
+    "topics": [
+        "algorithm analysis",
+        "recurrences and asymptotic analysis",
+        "searching",
+        "sorting",
+        "order-statistics",
+        "shortest path problems",
+        "network-flows"
+    ],
+    "learning_outcomes": [
+        "The students are expected to be able to analyse algorithms' resource usage by using asymptotic analysis and asymptotic notations.",
+        "The students are expected to be able identify the algorithm design technique used by a given algorithm such as divide-and-conquer, dynamic programming, greedy, etc.).",
+        "The students are expected to be able to use these algorithm design techniques to develop new algorithms for simple computational problems.",
+        "The students are expected to be aware of some common computational problems and some known algorithms for these problems.",
+        "The students are expected to know that there are limits of algorithmic approaches to the computational problems.",
+        "The students are expected to be able to design tests to analyse the correctness and the performance of practical implementations of algorithms."
+    ]
+}

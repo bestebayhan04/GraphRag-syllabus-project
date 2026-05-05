@@ -1,0 +1,79 @@
+[
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Classical Cryptosystems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Basics Of Number Theory",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Symmetric Key Cryptography",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Hash Functions",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Public Key Cryptosystems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Digital Signatures",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Implementation Issues",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Secure Key Establishment Techniques",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Secret Sharing",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_TOPIC",
+        "object": "Zero-Knowledge Proof",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS411/507",
+        "relation": "HAS_PREREQ",
+        "object": "MATH204",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

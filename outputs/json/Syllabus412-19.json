@@ -1,0 +1,19 @@
+{
+    "source_file": "Syllabus412-19.pdf",
+    "course_code": "CS 412",
+    "course_title": "Machine Learning",
+    "prerequisites": [
+        "MATH 201",
+        "MATH 203"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Basic concepts, issues, assumptions and limitations in machine learning",
+        "Decision trees, linear regression, k-nearest neighbor, Bayesian classifiers, support vector machines, neural networks, logistic regression, classifier combination"
+    ],
+    "learning_outcomes": [
+        "Have a solid understanding of the basic concepts, issues, assumptions and limitations in machine learning and how they apply to various machine learning techniques.",
+        "Have a working knowledge of the basic mathematics (probability, expectation, entropy, basic linear algebra, ...) and algorithms behind common machine learning techniques; together with their suitability in given situations.",
+        "Given a machine learning problem, select, implement and evaluate one of the appropriate machine learning algorithms (e.g. decision trees, neural networks, SVMs) using a programming environment such as Weka or Matlab."
+    ]
+}

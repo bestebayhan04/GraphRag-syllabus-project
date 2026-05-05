@@ -1,0 +1,107 @@
+[
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Management And Virtualization Of Resources Such As Cpu, Memory Space And Peripheral Devices",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Concurrent Processes",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Mutual Exclusion",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Process Communication",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Cooperation",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Deadlocks",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Semaphores",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Scheduling",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Protection",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Memory Management",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "File System Abstraction",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Persistent Memory Organization",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_TOPIC",
+        "object": "Unix And Windows",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_PREREQ",
+        "object": "CS204",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "CS307",
+        "relation": "HAS_COREQ",
+        "object": "CS307R",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

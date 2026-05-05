@@ -1,0 +1,22 @@
+{
+    "source_file": "CS449-549_HCI_Syllabus_2025_2026.pdf",
+    "course_code": "CS 449/549",
+    "course_title": "Human Computer Interaction",
+    "prerequisites": [],
+    "corequisites": [],
+    "topics": [
+        "Human -Computer Interaction",
+        "Interaction between people and digital systems",
+        "User-centered design (UCD) principles",
+        "Scientific study of human behaviour in digital environments",
+        "Usability problems in real-world technologies",
+        "Contemporary HCI frameworks",
+        "High-fidelity prototypes using tools such as Figma, MediaPipe, and OpenCV",
+        "Big data analytics and visualization platforms"
+    ],
+    "learning_outcomes": [
+        "Demonstrate a systematic understanding of HCI principles and theoretical foundations.",
+        "Apply UCD approach to design and evaluate user interfaces.",
+        "Analyze, design, implement, and evaluate interactive systems that align with human needs, cognitive capabilities, and contextual constraints."
+    ]
+}

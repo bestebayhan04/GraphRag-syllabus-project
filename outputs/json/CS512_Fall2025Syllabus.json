@@ -1,0 +1,36 @@
+{
+    "source_file": "CS512_Fall2025Syllabus.pdf",
+    "course_code": "CS512",
+    "course_title": "Machine Learning",
+    "prerequisites": [
+        ""
+    ],
+    "corequisites": [],
+    "topics": [
+        "Introduction",
+        "Basic concepts",
+        "Probability and statistics review",
+        "Model selection and evaluation",
+        "Performance metrics",
+        "Handling imbalance",
+        "Supervised learning",
+        "Naive Bayes classifier",
+        "Gaussian naive Bayes classifier",
+        "Perceptron",
+        "Logistic regression",
+        "Linear regression",
+        "Support vector machines",
+        "Kernels",
+        "Decision trees",
+        "Ensemble methods: Bagging, boosting",
+        "Neural networks",
+        "Basic introduction to deep learning",
+        "Unsupervised Learning",
+        "Clustering; k-means, spectral clustering, DBScan",
+        "Principal components analysis"
+    ],
+    "learning_outcomes": [
+        "An introduction to the methodologies, technologies, and algorithms for machine learning.",
+        "Hands-on practice with various learning algorithms, and a larger course project will give students an opportunity to work on a problem of their interest."
+    ]
+}

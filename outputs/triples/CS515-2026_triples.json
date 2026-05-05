@@ -1,0 +1,79 @@
+[
+    {
+        "subject": "CS515",
+        "relation": "HAS_TOPIC",
+        "object": "Artificial Neural Networks (Ann)",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_TOPIC",
+        "object": "Single And Multi-Layer Perceptrons",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_TOPIC",
+        "object": "Hopfield And Kohonen Networks",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_TOPIC",
+        "object": "Convolutional Neural Networks",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_TOPIC",
+        "object": "Recurrent Networks",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_TOPIC",
+        "object": "Autoencoders",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_TOPIC",
+        "object": "Generative Adversarial Networks",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_TOPIC",
+        "object": "Transformers",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_PREREQ",
+        "object": "CS412",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_PREREQ",
+        "object": "CS512",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "CS515",
+        "relation": "HAS_PREREQ",
+        "object": "EE566",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

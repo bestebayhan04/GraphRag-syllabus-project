@@ -1,0 +1,33 @@
+{
+    "source_file": "Syllabus-DSA301-202502.pdf",
+    "course_code": "DSA 301",
+    "course_title": "Data Visualization",
+    "prerequisites": [
+        "DSA 210",
+        "CS 210"
+    ],
+    "corequisites": [
+        "DSA 301R"
+    ],
+    "topics": [
+        "Introduction to Data Visualization",
+        "Visualization Design, Sketching",
+        "Sensing and Perception",
+        "Data and Dashboards",
+        "Visual Prototyping",
+        "Interactive Grammar of Visualizations: Vega Lite",
+        "Vega-Altair and other tools",
+        "Interactive Visualizations",
+        "Maps",
+        "Visual Design and Aesthetic Perspective",
+        "Deceptive Visualizations and Storytelling",
+        "Storytelling"
+    ],
+    "learning_outcomes": [
+        "Understand Visualization Principles.",
+        "Create and Interpret Visualizations.",
+        "Utilize Data Visualizations.",
+        "Design Interactive Dashboards.",
+        "Analyze and Communicate Data Insights."
+    ]
+}

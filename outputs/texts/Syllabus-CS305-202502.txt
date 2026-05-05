@@ -1,0 +1,128 @@
+
+--- Page 1 ---
+ Print
+ Syllabus Application
+su 
+CS 305
+Programming Languages
+Faculty Faculty of Engineering and Natural Sciences
+Semester Spring 2025-2026
+Course CS 305 - Programming Languages
+Time/Place Time Week Day Place Date
+13:40-14:30 Mon UC-G030 Feb 16-May 22, 2026
+08:40-10:30 Fri UC-G030 Feb 16-May 22, 2026
+Level of course Undergraduate
+Course Credits SU Credit:3, ECTS:6, Engineering:6
+Prerequisites CS 204
+Corequisites
+Course Type Lecture
+Program Requirements
+
+Instructor(s) Information
+Office Hours (by appointment): Tuesday 18:30-20:30
+Please reserve a slot before 23:59PM of the previous day, latest.
+Hüsnü Yenigün
+Email: yenigun@sabanciuniv.edu
+4/27/26, 1:18 PM Syllabus-CS305-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=22651&origin=www_syllabus 1/5
+
+--- Page 2 ---
+Course Information
+Catalog Course Description
+This course discusses the concepts underlying the design, definition, implementation, and use
+of modern programming languages for a variety of programming paradigms, such as imperative,
+functional, logic and concurrent programming paradigms. The syntax and semantics of
+programming languages are described using formal approaches, and basic concepts of
+language analysis and compilation are covered using modern tools.
+Course Learning Outcomes:
+1. The students are expected to have basic information for the implementation of
+programming languages.
+2. The students are expected to have some experience to apply techniques of
+language implementation by using tools for language implementation.
+3. The students are expected to have basic information for the common concepts in
+programming languages.
+4.
+The students are expected to have introductory information on programming
+language paradigms such as functional programming, logic programming, and
+parallel programming.
+Course Objective
+To give the students the basic principles of various programming language paradigms and
+implementation of these languages.
+-
+Course Materials
+Resources:
+TEXTBOOKS*:
+[1] “Programming Languages: Concepts and Constructs” by Ravi Sethi
+[2] “Concepts of Programming Languages” by Robert W. Sebesta
+[3] “Comparative Programming Languages” by Leslie B. Wilson and Robert G. Clark
+[4] “Programming Languages: Principles and Paradigms” by Allen Tucker and Robert Noonan
+[5] “Essentials of Programming Languages” by Daniel Friedman, Mitchell Wand, and Christopher
+4/27/26, 1:18 PM Syllabus-CS305-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=22651&origin=www_syllabus 2/5
+
+--- Page 3 ---
+T. Haynes
+*: A lecture notes document prepared based on the references above will be provided.
+Technology Requirements:
+You will need to have SSH access to cs305.sabanciuniv.edu server for homeworks. SU-Net
+users of the students will be activated on this server after the course starts. All the software
+packages you need for homeworks are already installed on this server.
+Assessment
+The final grade for this course will be based on:
+  Percentage (%) Number of assessment methods
+Final 45%
+Midterm 40% 1
+Homework 15% 5
+Midterm Exam Date: April 12, 2026 @ 14:30-16:30
+Final Exam Date: TBA
+Similar to a failing threshold (which is decided at the end of the semester) for the overall
+numeric grade of the course, there will also be a failing threshold for the all the grading items
+(midterm, final, homeworks). If your grade from a grading item falls below the failing grade of a
+grading item, this will be a reason for failing the course. Again, similar to the failing threshold for
+the overall numeric grade of the course, failing thresholds for the midterm, final, homeworks will
+be decided at the end of the semester.
+Exam Schedule:
+Time Event Details
+Apr 12, 2026 14:30 Midterm: CS305 Midterm
+Policies
+Course Policies:
+4/27/26, 1:18 PM Syllabus-CS305-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=22651&origin=www_syllabus 3/5
+
+--- Page 4 ---
+Make-up Policy: If you miss exactly one of the midterm or final exam, and if you have a valid
+excuse (e.g. a medical condition, an official university event participation, etc.), then you can
+take the make-up exam. In this case, the grade of the make-up exam counted as the grade of
+your missing exam. The make-up exam can be an oral exam, a written exam, or both.
+ 
+AI Policies
+Guidelines on the "Use of Generative AI" for students
+SU Academic Integrity Statement:
+https://www.sabanciuniv.edu/en/academic-integrity-statement
+Health Report Requirements
+Student Medical Reports Instruction Letter 
+Weekly Content
+Week Topic
+Week 1 Introduction, Describing Syntax and Semantics of Programming
+Languages
+Week 2 Flex and Scanner Implementation
+Week 3 Context Free Grammars
+Week 4 Bison and Parser Implementation
+Week 5 Abstract Syntax Trees, Semantic Analysis
+Week 6 Expressions, Types and Type Checking, Statements, Scoping Rules
+Week 7 Subprograms – Referencing Environments, Parameter Passing
+Week 8 Subprograms – Activation Records
+Week 9 Functional Programming – Expressions, Procedures
+Week 10 Functional Programming – Data types
+Week 11 Functional Programming – Interpreters
+Week 12 Logic Programming – Relations, Rules/Facts, Inferencing
+4/27/26, 1:18 PM Syllabus-CS305-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=22651&origin=www_syllabus 4/5
+
+--- Page 5 ---
+Week Topic
+Week 13 Logic Programming – Unifications, Programming Techniques
+Week 14 Parallel Programming
+© 2026 Sabancı University
+4/27/26, 1:18 PM Syllabus-CS305-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=22651&origin=www_syllabus 5/5

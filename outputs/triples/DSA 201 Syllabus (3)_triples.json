@@ -1,0 +1,72 @@
+[
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Algorithmic Problems In Python",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Data Manipulation And Preprocessing With Numpy And Pandas",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Basic Data Visualization With Matplotlib And Seaborn Libraries",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Descriptive Statistics",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Object-Oriented Programming (Oop) In Python",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Basic Data Structures (Part I)",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Understanding Program Efficiency",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Sorting Algorithms",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_TOPIC",
+        "object": "Data Structures (Part Ii)",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA201",
+        "relation": "HAS_PREREQ",
+        "object": "IF100",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

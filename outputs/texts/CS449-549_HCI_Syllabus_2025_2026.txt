@@ -1,0 +1,334 @@
+
+--- Page 1 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+CS 449/549 – Human Computer Interaction 
+1. TITLE AND CREDIT HOURS 
+Course Title: Human Computer Interaction 
+Course Code: CS 449/549 
+Credit Hours: 3 SU Credits | 6 ECTS 
+Level: Senior Undergraduate / Graduate 
+Class Schedule: 
+Type Time Days Where Date Range Schedule Type 
+Class 12:40 pm - 2:30 
+pm 
+T Fac.of Arts and Social Sci. 
+G018 
+Sep 29, 2025 - Jan 03, 
+2026 
+1st del 
+Class 2:40 pm - 3:30 
+pm 
+R Fac. of Engin. and Nat. 
+Sci. L045 
+Sep 29, 2025 - Jan 03, 
+2026 
+2nd del 
+ 
+This course is designed for students interested in deepening their understanding of the 
+interaction between people and digital systems, integrating theory with hands -on tool-
+based learning and applied research. 
+2. COURSE STAFF 
+Instructor   Asst. Prof. Polat Göktaş (Coordinator)      
+  E-mail: polat.goktas@sabanciuniv.edu  
+  Office No: G052 - FENS 
+Assistants   Mohammad Javadian Farzaneh 
+  E-mail: : mohammad.javadian@sabanciuniv.edu  
+ 
+  Faraz Badali Naghadeh  
+  E-mail: : faraz.badali@sabanciuniv.edu  
+ 
+  Damla Sarıçelik 
+  E-mail: : damlasaricelik@sabanciuniv.edu  
+Office hours  Please arrange appointments via email. 
+3. CATALOG DESCRIPTION 
+This course aims to provide an in -depth exploration of Human -Computer Interaction 
+(HCI) as a multidisciplinary/transdisciplinary field at the intersection of computer science, 
+psychology, design, and human factors. It addresses how technology can be designed and
+
+--- Page 2 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+evaluated to meet human needs, capabilities, and expectations. The course is grounded 
+in user-centered design (UCD) principles and emphasizes the scientific study of human 
+behaviour in digital environments, with strong integration of research methodology, 
+prototyping tools, and data-driven decision-making. 
+Students will examine how people interact with computers and digital systems, 
+investigate usability problems in real -world technologies, and propose design 
+improvements based on cognitive, social, and perceptual insights. The course introduces 
+contemporary HCI frameworks and guides students through the development of high -
+fidelity prototypes using tools such as Figma, MediaPipe, and OpenCV. 
+A significant portion of the course is dedicated to hands -on research, where students 
+will learn to design, conduct, and evaluate user studies. They will also work with big 
+data analytics and visualization platforms such as Python (pandas, matplotlib, seaborn), 
+Tableau, and Power BI to extract insights from user data. This fosters critical skills in 
+quantitative reasoning, visual storytelling, and evidence-based design. 
+The capstone of the course is a journal -style final project, in which students 
+collaboratively identify an HCI -related research question, conduct a structured study, 
+and produce & submit a research report in the format of a journal paper, following APA 
+or ACM publication standards . Through this course, students will be prepared to 
+contribute to both academic research and industry-level interface design, equipped with 
+practical skills and theoretical knowledge. 
+4. COURSE OBJECTIVES 
+The primary objective of this course is to provide students with a comprehensive 
+foundation in the interdisciplinary field of HCI, integrating theoretical frameworks with 
+applied, research-oriented methodologies. By the conclusion of the course, students will 
+have developed the knowledge and skills required to analyze, design, implement, and 
+evaluate interactive systems that align with human needs, cognitive capabilities, and 
+contextual constraints. Specifically, students will be able to: 
+1. Demonstrate a systematic understanding of HCI principles and theoretical foundations , 
+including core concepts such as usability, affordances, feedback, mental models, 
+and accessibility, as they relate to the design and evaluation of user interfaces. 
+2. Apply UCD approaches  to the iterative development of interactive systems, 
+incorporating techniques such as task analysis, persona development, scenario 
+creation, and wireframing to inform evidence-based design decisions.
+
+--- Page 3 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+3. Design and prototype digital interfaces using contemporary tools , such as Figma, 
+Adobe XD, and MediaPipe, with a focus on developing both low - and high -
+fidelity prototypes that support usability, efficiency, and user satisfaction. 
+4. Design and conduct empirical usability studies , employing both formative and 
+summative evaluation techniques. Students will learn to plan user testing 
+sessions, collect and analyze performance data, and apply heuristic evaluation 
+and cognitive modelling (e.g., via CogTool) to assess interaction quality. 
+5. Engage with data -driven decision -making through big data analytics , including the 
+acquisition, preprocessing, and interpretation of interaction data. Students will 
+utilize tools such as Python (pandas, matplotlib, seaborn), Tableau, and Power BI 
+to extract meaningful insights from user behaviour datasets. 
+6. Communicate research findings effectively  through scientific writing and data 
+visualization. Students will be expected to structure and present their work in 
+accordance with APA or ACM formatting guidelines, demonstrating academic 
+integrity and clarity in reporting research processes and outcomes. 
+7. Address ethical, social, and inclusive design considerations  in the development of 
+digital systems. This includes evaluating the implications of design decisions on 
+diverse user populations and ensuring compliance with ethical standards related 
+to data collection, privacy, accessibility, and bias mitigation. 
+Through the integration of practical tools and academic inquiry, this course aims to 
+cultivate students’ ability to contribute meaningfully to both industry -focused user 
+experience roles and academically rigorous research in HCI. 
+5. STUDENT REQUIREMENTS 
+To successfully complete this course, students must: 
+• Participate actively in lectures, hands-on experiences, and discussion sessions. 
+• Complete all individual and group assignments on time. 
+• Use selected digital tools for design, data analysis, and visualization. 
+• Submit a project proposal and a full research report based on an HCI problem. 
+• Present their research results using visuals and scientific formats.
+
+--- Page 4 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+• Maintain academic integrity and adhere to the academic English language’ 
+writing conventions. 
+6. COURSE PHILOSOPHY AND THE INSTRUCTOR’S ROLE 
+The course emphasizes active, experiential, and research -based learning. The instructor 
+serves as a facilitator and research mentor rather than a traditional lecturer. Students are 
+encouraged to: 
+• Explore contemporary problems through experimentation and iteration. 
+• Share real-world insights from prior projects. 
+• Use collaborative platforms ( e.g., GitHub, Miro, Overleaf) to document and 
+present their work. 
+Invited guest speakers from academia and industry may participate to enrich students’ 
+perspectives on applied HCI research, emerging technologies, and data-driven design. 
+7. TEXTBOOK(S) AND OTHER RECOMMENDED MATERIAL 
+A reading package will be used. Required and optional readings will be available on 
+SUCOURSE. 
+Key Readings: 
+• Interaction Design: Beyond Human-Computer Interaction - Rogers, Sharp & Preece.  
+• The Design of Everyday Things - Don Norman. 
+• Research Methods in HCI - Lazar, Feng, Hochheiser. 
+Online Tools & Platforms: 
+• Design: Figma, Adobe XD, Miro 
+• Development: Python (pandas, matplotlib, seaborn), OpenCV, MediaPipe 
+• Cognitive Modeling: CogTool 
+• Usability & Testing: Google Forms, OBS Studio, Hotjar 
+• Visualization: Tableau, Power BI, Plotly 
+• Scientific Writing: Overleaf (LaTeX), Zotero, Mendeley
+
+--- Page 5 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+Websites: 
+• Bad Designs (Examples) www.baddesigns.com/examples.html 
+This is a great site for examples of the sorts of bad designs that exist all around us.                      
+The  entries here are fine but lack any theoretical analysis. 
+• Graphical User Interface Wikipedia 
+• A non-profit enterprise focused on educating, informing and stimulating the global 
+design community Interaction-Design.org 
+• HCIBIB - HCI Bibliography : Human-Computer Interaction Resources 
+http://www.hcibib.org/  
+• Turkish HCI Open Courseware 
+https://kullanilabilirlik.info/  
+• TÜBİTAK Usability Guidelines Website 
+https://bilgem.tubitak.gov.tr/en/yte/kamis/ (English) 
+https://bilgem.tubitak.gov.tr/yte/kamis/(Turkish) 
+Other Resources 
+• Ronald M. Baecker, Jonathan Grudin, William A. S. Buxton and Saul 
+Greenberg, Readings in Human -Computer Interaction:  Toward the Year 2000 , 2nd Ed, 
+Morgan Kaufmann, (1995) (1-55860-246-1) 
+• Frederic P. Brooks, Jr., The Design of Design: Essays from a Computer Scientist, Addison-
+Wesley (2010) (0-201-36298-8) 
+• Alan Cooper & Robert M. Reimann,   About Face 2.0: The Essentials of Interaction 
+Design, John Wiley, 2nd Ed (2003) (0-764-52641-3) 
+• Alan Dix, Janet Finlay, Gregory Abowd, Russell Beale,  Human-Computer Interaction, 
+2nd Ed, Addison-Wesley (1995) (0-13-239864-8) 
+• JoAnn T. Hackos Janice C. Redish,  User and Task Analysis for Interface Design , 3rd 
+Ed,  John Wiley (1998).  (0-471-17831-4) 
+• Jeff  Johnson, GUI Bloopers - Don'ts and Do's for Software Developers and Web 
+Designers, Academic Press (2000)   (1-55860-582-7) 
+• William M. Newman and Michael G. Lamming,  Interactive System Design, Addison-
+Wesley (1995) (0-201-63162-8) 
+• Jakob Nielsen,  Designing Web Usability: The Practice of Simplicity,  New Riders, 1st Ed 
+(Dec 1999) (1-562-05810-X) 
+• Jenny Preece - Yvoone Rogers, Helen Sharp, David Benyon, Simon Holland and Tom 
+Carey, Human-Computer Interaction, Addison-Wesley (1994)  (0-201-62769-8)
+
+--- Page 6 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+Professional Associations 
+• ACM SIGCHI 
+Part of the Association for Computing Machinery (ACM), SIGCHI is the leading 
+international community dedicated to advancing the study and practice of human -
+computer interaction. 
+• Human Factors and Ergonomics Society 
+An interdisciplinary organization whose mission is “ to promote the discovery and 
+exchange of knowledge concerning the characteristics of human beings that are applicable to 
+the design of systems and devices of all kinds.” 
+• IEEE Systems, Man and Cybernetics Society – Technical Committee on 
+Human-Computer Interaction (TCHCI) 
+A professional community within the IEEE Systems, Man and Cybernetics Society 
+focusing on advancing HCI research, development, and education across computing 
+platforms and emerging technologies. 
+• IEEE Future Directions – Human-Computer Interaction and Beyond 
+An IEEE initiative exploring the frontiers of human -centered innovation, including 
+augmented and virtual reality, brain –computer interfaces, affective computing, and 
+next-generation user experience paradigms. This initiative connects researchers, 
+practitioners, and policymakers to shape the future of interactive technologies. 
+Please check 2025 IEEE Metaverse Grand Challenge for Simulation -Based Learning: 
+https://metaversereality.ieee.org/competition/
+
+--- Page 7 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+8. ASSIGNMENTS AND GRADES 
+Grades in this course will be determined by: 
+• 20% Assignments 
+# Assignment Type Weight Sample Tool(s) Deadline 
+1 Applied HCI Laws Simulation 
+(e.g., Fitts’s Law) Individual 5 pts Python/JS October 31, 2025 23:59 
+TR (Week 5) 
+2 Cognitive Modelling Task Individual 5 pts CogTool November 28, 2025 23:59 
+TR (Week 9) 
+3 Big Data Analytics & 
+Visualization  Individual 10 pts Python, Tableau, 
+Power BI 
+December 26, 2025 23:59 
+TR (Week 13)  
+ 
+• 25% Final Exam 
+o Covers theoretical foundations, research methods, and applied HCI case 
+studies. 
+• 10% Participation & Use Case Discussion 
+o Participation* – 5% 
+o Attendance with in-class mini quizzes & case-based exercises – 5% 
+ 
+*Requirements and 
+Policies 
+Active participation is required for all classes. Attendance to at least 60% of classes is 
+mandatory.  
+ 
+• 45% Group Final Project 
+# Tasks Type Weight Sample Tool(s) 
+1 Final Project Proposal Group 5 pts Overleaf, Zotero, Miro 
+2 Interaction Prototype 
+Development Group 5 pts 
+Figma, Adobe XD, MediaPipe, OpenCV, 
+Unity (VR/AR), HTC Vive / Oculus Rift / 
+HoloLens (XR prototyping)
+
+--- Page 8 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+# Tasks Type Weight Sample Tool(s) 
+3 Experimental Usability Testing Group 5 pts 
+OBS Studio (screen recording), Hotjar (session 
+tracking), Google Forms (surveys), Tobii / 
+Fove 0 (eye-tracking), Insta360 Pro (360° study 
+capture) 
+4 
+Final Research Paper 
+(APA/ACM style, 
+Word/Overleaf, 
+Python/Tableau/Demo) 
+Group 30 pts 
+Word / Overleaf (APA or ACM style), Python 
+(pandas, matplotlib, seaborn), Tableau / Power 
+BI (visualization), GitHub (code repository), 
+Laser Cutter / 3D Printers / HTC Vive / Oculus 
+Rift / HoloLens / Tobii / Fove 0 / Insta360 Pro 
+(physical demo), Dobot Magician (robotic HCI 
+demo) 
+ 
+Resource List: https://cospace.sabanciuniv.edu/tr; https://cospace.sabanciuniv.edu/tr/ekipman 
+Equipment & Facilities for the Group Project 
+Students will have access to advanced prototyping, visualization, and interaction technologies 
+provided through the Sabancı University Collaboration Space . These resources are available to 
+support the design, development, and evaluation of innovative HCI solutions in the group 
+project. 
+Prototyping & Fabrication 
+• LPKF Circuit Board Plotter ProtoMat S63  – In-house PCB prototyping with 2.5D milling 
+capabilities. 
+• Ultimaker 3 – Professional dual-extrusion 3D printing for complex prototypes. 
+• Formlabs Form 2 – High-resolution SLA 3D printer for industrial-quality output. 
+• Raise 3D N2+ – Large-volume, high-resolution FDM 3D printer. 
+• 3D Doodler PRO – Handheld 3D printing for rapid conceptual modeling. 
+• Laser Cutter (300W)  – Cutting and engraving on plexiglass, wood, aluminum, and 
+stainless steel. 
+Immersive Technologies & XR 
+• HTC Vive / Oculus Rift / Microsoft HoloLens  – Virtual and augmented reality headsets 
+for immersive HCI applications.
+
+--- Page 9 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+• Fove 0  – Eye-tracking VR headset with high -resolution display and precise gaze 
+interaction capabilities. 
+3D Scanning & Visualization 
+• David SLS 3 – Structured-light 3D scanner for high-precision digital modelling. 
+• Insta360 Pro – 8K 360° video capture with real-time stitching and livestream options. 
+Media Production & Interaction 
+• Sony Alpha 9 / Sony PXW -Z150 Camcorder / DJI Osmo X3  – High-quality cameras for 
+documentation, usability studies, and visual storytelling. 
+• ROLI Seaboard Block – Expressive digital music and sound prototyping device. 
+• Dobot Magician – Multifunctional desktop robotic arm for interactive and tangible HCI 
+prototyping. 
+9.  ACADEMIC INTEGRITY AND USE OF AI TOOLS 
+All submitted work must reflect the original efforts of the individual student or 
+designated group members. The use of artificial intelligence (AI) tools for content 
+generation (including but not limited to text, code, or visuals) is prohibited in all 
+assignments unless explicitly stated otherwise. The sole permitted use of AI technologies 
+is for grammar correction or basic proofreading support. 
+All assignments will be subjected to originality checks using Turnitin and related AI 
+detection tools. Any instance of plagiarism, unauthorized assistance, or academic 
+dishonesty will be dealt with in accordance with university disciplinary procedures. 
+10.  FORMATTING AND CITATION REQUIREMENTS 
+All written submissions must conform to the APA (American Psychological Association) 
+formatting and citation style. Students are strongly encouraged to use academic 
+reference management software such as: 
+• Mendeley: https://www.mendeley.com 
+• Zotero: https://www.zotero.org 
+For comprehensive guidance on formatting, structure, and academic writing 
+expectations, students should consult the official course project handbook: 
+https://career.sabanciuniv.edu/sites/career.sabanciuniv.edu/files/2021-11/project-302-
+handbook.pdf
+
+--- Page 10 ---
+Syllabus: CS 449/549 – Human Computer Interaction  Dr. Polat Göktaş 
+11.  GRADING SCALE 
+Final grades will be assigned based on the following scale*: 
+Percentage Grade 
+100–95 A 
+94–90 A− 
+89–85 B+ 
+84–80 B 
+79–75 B− 
+74–70 C+ 
+69–65 C 
+64–60 C− 
+59–55 D+ 
+54–50 D 
+*Final grade thresholds may be adjusted based on overall course performance and assessment 
+considerations.

@@ -1,0 +1,28 @@
+{
+    "source_file": "DSA 201 Syllabus (3).pdf",
+    "course_code": "DSA 201",
+    "course_title": "Advanced Programming for Data Science",
+    "prerequisites": [
+        "IF 100"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Algorithmic Problems in Python",
+        "Data Manipulation and Preprocessing with NumPy and Pandas",
+        "Basic Data Visualization with Matplotlib and Seaborn libraries",
+        "Descriptive Statistics",
+        "Object-Oriented Programming (OOP) in Python",
+        "Basic Data Structures (Part I)",
+        "Understanding Program Efficiency",
+        "Sorting Algorithms",
+        "Data Structures (Part II)"
+    ],
+    "learning_outcomes": [
+        "Gain the skills needed to tackle real-world data science challenges.",
+        "Solidify Python programming skills through algorithmic problems.",
+        "Master data manipulation and preprocessing using powerful libraries such as NumPy and Pandas.",
+        "Understand basic data visualization techniques using Matplotlib and Seaborn.",
+        "Equip with essential concepts in descriptive statistics.",
+        "Learn object-oriented programming, basic data structures, and development of efficient algorithms."
+    ]
+}

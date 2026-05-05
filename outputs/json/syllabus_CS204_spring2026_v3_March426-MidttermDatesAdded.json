@@ -1,0 +1,26 @@
+{
+    "source_file": "syllabus_CS204_spring2026_v3_March426-MidttermDatesAdded.pdf",
+    "course_code": "CS204",
+    "course_title": "Advanced Programming",
+    "prerequisites": [
+        "CS201"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Introduction (overview of basic concepts, C++ environment , preprocessor directives, compiler, compiler options, linker, libraries, debugging)",
+        "Pointers and dynamic memory allocation",
+        "Linked lists",
+        "Stacks and queues",
+        "Advanced issues on classes and object oriented programming",
+        "Templates, templated  classes and functions",
+        "Data representation, bitwise operations",
+        "Inheritance, polymorphism and advanced object oriented design",
+        "Exception handling",
+        "Programming with threads",
+        "Visual programming and graphical user interfaces (if time and scheduling permits)"
+    ],
+    "learning_outcomes": [
+        "Provide programming experience and give advanced programming techniques.",
+        "Students would be more prepared to data structures and several other junior and senior level CS courses."
+    ]
+}

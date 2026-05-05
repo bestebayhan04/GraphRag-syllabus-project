@@ -1,0 +1,240 @@
+
+--- Page 1 ---
+ Print
+ Syllabus Application
+su 
+CS 307
+Operating Systems
+Faculty Faculty of Engineering and Natural Sciences
+Semester Spring 2025-2026
+Course CS 307 - Operating Systems
+Time/Place Time Week Day Place Date
+13:40-14:30 Wed SBS-G071 Feb 16-May 22, 2026
+14:40-16:30 Thu SBS-G071 Feb 16-May 22, 2026
+Level of course Undergraduate
+Course Credits SU Credit:3, ECTS:6, Engineering:6
+Prerequisites CS 204
+Corequisites CS 307R
+Course Type Lecture
+Program Requirements
+
+Instructor(s) Information
+Süha Orhun Mutluergil
+Email: suha.mutluergil@sabanciuniv.edu
+Course Information
+Catalog Course Description
+4/27/26, 1:18 PM Syllabus-CS307-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20237&origin=www_syllabus 1/8
+
+--- Page 2 ---
+This course covers fundamental aspects of operating systems: management and virtualization
+of resources such as CPU, memory space and peripheral devices. Topics include concurrent
+processes, mutual exclusion, process communication, cooperation, deadlocks, semaphores,
+scheduling, protection, memory management, file system abstraction and persistent memory
+organization. The course will also highlight important aspects of operating systems such as
+UNIX and Windows.
+Course Learning Outcomes:
+1. To have a high-level understanding of computer systems, how an operating
+system works, and the general structure of an operating system.
+2. To have an understanding of how OS handles multpile processes, and multi-
+threading including synchronization, scheduling, and memory management.
+3. To be aware of some common problems due to interprocess communication, how
+these problems are modeled and solved.
+4. To have an understanding of how how file systems are implemented and how I/O
+operations are performed.
+5. To have an understanding of basics of threats to computer security
+Course Objective
+To supply the students with the theory and practice of operating systems and operating system
+design principles.
+Sustainable Development Goals (SDGs) Related to This Course:
+Affordable and Clean Energy
+Industry, Innovation and Infrastructure
+Course Materials
+4/27/26, 1:18 PM Syllabus-CS307-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20237&origin=www_syllabus 2/8
+
+--- Page 3 ---
+Resources:
+Primary Textbook: Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau. Operating Systems:
+Three Easy Pieces, 1.00 Edition, Published by CreateSpace Independent Publishing Platform,
+2018, ISBN: 978-1985086593. Free online access: https://pages.cs.wisc.edu/~remzi/OSTEP/
+Technology Requirements:
+CS307 server for programming assignments:
+cs307.sabanciuniv.edu OR 10.3.0.91
+Login with your SU username and password.
+It will be available after add/drop period.
+Assessment
+The final grade for this course will be based on:
+  Percentage (%) Number of assessment methods
+Final 40%
+Midterm 30% 1
+Quiz 14% 7
+Assignment 16% 4
+Note: This grading scheme is tentative and might change until the add/drop period.
+Exam Schedule:
+Time Event Details
+Apr 11, 2026 13:00 Midterm: CS307 - MidtermExam
+Policies
+Course Policies:
+4/27/26, 1:18 PM Syllabus-CS307-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20237&origin=www_syllabus 3/8
+
+--- Page 4 ---
+1. Grading Policies
+1.1 Programming Assignments (PAs)
+There will be 4 programming assignments in total. You will be required to write C/C++ programs.
+Your programs should compile and run properly on UNIX-based operating systems.
+For each PA, there will be a related quiz, immediately after the deadline. The quiz score will
+determine the maximum score you can take from that PA. For each PA, a margin will be
+announced after the quiz to be added to the quiz score to determine the upper threshold for
+your PA score. For instance, if your related quiz score is 50 and the announced margin is 20,
+then the maximum score you can get from this PA is 70.
+If you miss a PA quiz and you want your PA to be graded, you have to take an oral exam to
+determine your PA score.
+1.2 Midterm Examination
+2-3 hours exam towards the end of 8th week. The midterm exam will be physical and in class.
+Students will answer both theoretical and computational questions using pen and paper. Exam
+date will be scheduled by Student Resources (SR) and cannot be modified by course staff.
+1.3 Final Examination
+2-3 hours exam that will be held during the finals week Exam date will be scheduled by SR and
+cannot be modified by course staff. The final exam will cover all the topics in the course.
+1.4 Quiz
+There will be 9 quizzes throughout the semester. Top 7 quiz scores will be counted towards the
+overall score. Quizzes might take place during lectures or recitations. Quizzes will not be
+announced beforehand except the PA quizzes. PA quiz scores are counted towards the quiz
+grading item, too.
+There will not be any makeup quizzes.
+1.5 Oral Examination
+For each of the assessment method above, some students might be randomly called for an oral
+examination to clarify their work. Depending on the oral exam score, the original assessment
+score might be modified.
+1.6 Overall Score Restriction
+Students whose total score is less than 30 or final exam score (or the make-up exam score that
+will replace the final exam) is less than 25 will automatically fail the course (get an F).
+1.6.1 Example Scenario 1
+4/27/26, 1:18 PM Syllabus-CS307-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20237&origin=www_syllabus 4/8
+
+--- Page 5 ---
+The student scored 30 from the final exam, but the overall score is 20. Then, the student
+directly fails the course.
+1.6.2 Example Scenario 2
+The student's overall score is 35, but the final exam score is 20. Then, the student directly fails
+the course.
+1.6.3 Example Scenario 3
+The student's both overall score and final exam score are 33. Then, this rule is not conclusive
+about the letter grade of the student. Depending on the total score distributions, the student
+might still fail the course.
+2. Office Hour Policy
+This semester office hours will be conducted online. To attend the office hours of LAs, TAs and
+the instructor (course staff), students must send an email the corresponding course staff at
+least a few hours ago. Last-minute appointment requests will not be accepted. Each member
+of the course staff will reserve 2 hours per week for conducting office hours. Office hours are
+divided into 30-minute slots. Students can request at most one slot per week. Slots will be
+booked in a first come first served manner. After all the slots become full, course staff do not
+guarantee to open new slots.
+3. Email Policy
+Course staff are expected to reply to student emails within 48 hours. Course staff might not
+always provide immediate responses. It is advised that students do not wait until the submission
+deadline for doing their assignments. Course staff try to be more responsive during the deadline
+period, but last-minute questions might not be answered due to the heavy email traffic.
+Students are advised to post their course related questions to the discussion forum in SUCourse
+since other students might answer them quickly. Course staff has the freedom of not answering
+a student question if the answer already exists in the course material (syllabus, discussion
+forums, course book or any other material in SUCourse) or if the student is expected to find the
+answer herself/himself.
+4. Grace Day Policy
+Each student has 5 grace days in total that can be used throughout the semester for extending
+missed deadlines. It can only be used for extending programming assignment deadlines. The
+student might use all grace days at once for one assignment or partition them among distinct
+assignments. Granularity of using grace days is 1-day. For instance, the student cannot ask for a
+2 day 10-hour extension and save 2 days 14 hours for later. The student does not have to
+provide any excuse or document for using his/her grace days. If the student finishes all his/her
+grace days, no further extension will be given to him/her even if he/she has a valid excuse and
+documentation.
+The student will be able to make submissions/updates on your assignment after the deadline,
+using your grace days. So, you can use your grace days without notifying us. (i.e. no need to
+4/27/26, 1:18 PM Syllabus-CS307-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20237&origin=www_syllabus 5/8
+
+--- Page 6 ---
+send us a mail or fill in some sheet). 
+An excel sheet link is shared with you so that you can see how many grace days you’ve used for
+each assignment, as well as how many you have left. You may find the same link on the CS307
+Sucourse page under General -> Important Information -> Grace Day Sheet.
+Please note that:
+-    The system does not keep your submission history, and we cannot access your earlier
+submissions. Therefore, only your final version will be graded, and final update date will be used
+to calculate your remaining grace days.
+-    'No submission' means you haven’t used any of your grace days.
+-    Even if you don’t have any grace days left, the system still technically allows you to upload
+files after the deadline. However, grace days are manually tracked via the shared sheet. If you
+submit an assignment exceeding your remaining grace days (as recorded in the sheet), it will be
+counted as ‘No Submission’, even if the system accepts your submission. (i.e., if you have 2
+grace days left, but you upload more than 2 days after the deadline, you will receive 0.)
+Therefore, it is your responsibility to check your remaining grace days on the sheet before
+submitting.
+5. Makeup Policy
+There is only one make-up exam that will be conducted after the final exam. The exam date is
+decided and announced after the final exam. Only students with a valid excuse (SU health-
+center approved health report or any other official document) for the midterm or the final exam
+are eligible for the make-up. See "Student Medical Reports Instruction Letter" for detailed
+information. The make-up score can replace only one exam. Even though the student has a valid
+excuse for not attending both final and midterm exams, s/he can take the make-up to replace
+only one of them.
+6. Conflict Policy
+Time conflict permissions are not given for lectures or recitations.
+7. Academic Integrity & Plagiarism
+Cheating and plagiarism will not be tolerated, see Sabanci University’s statement on academic
+integrity for more information.
+Students’ programming assignment submissions will be compared with other submissions from
+both the current and previous terms by the course staff using the JPLAG tool. If the similarity
+score exceeds a predetermined threshold, penalties will be applied. If the JPLAG test fails for
+the first time, student’s score might be reduced to 0 depending on the degree of similarity. For
+the second JPLAG failure, the obtained score will be -100 for both submissions and for the third
+failure the student’s case will be directly forwarded to the disciplinary committee for further
+investigation. It will not be possible to regain scores of failed tests back through extra
+assignments, resubmissions, and oral exams.
+4/27/26, 1:18 PM Syllabus-CS307-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20237&origin=www_syllabus 6/8
+
+--- Page 7 ---
+7.1. AI Policy
+GenAI usage for learning purposes is encouraged. However, copying any AI generated code for
+PAs and AI generated text for reports are strictly prohibited. Intensive usage of GenAI by many
+students might cause high similarity among submissions and result in JPLAG failures.
+Report submission similarities will also be checked via Turnitin. If the similarity scores exceed a
+threshold, measures explained for JPLAG failures will be applied. 
+Note: The instructor holds the right to decide a policy concerning issues not already covered
+here. 
+AI Policies
+Guidelines on the "Use of Generative AI" for students
+SU Academic Integrity Statement:
+https://www.sabanciuniv.edu/en/academic-integrity-statement
+Health Report Requirements
+Student Medical Reports Instruction Letter 
+Weekly Content
+Week Topic
+Week 1 Introduction
+Week 2 CPU Virtualization: Processes and System Calls
+Week 3 CPU Virtualization: Limited Direct Execution
+Week 4 Scheduling: Basic Algorithms
+Week 5 Scheduling: Proportional Share and Realistic Algorithms
+Week 6 Concurrency: Threads & Mutexes
+Week 7 Concurrency Primitives: Condition Variables and Semaphores
+Week 8 Concurrency: Deadlocks and Concurrency Errors
+Week 9 Memory Virtualization: Virtual Address Spaces
+Week 10 Memory Virtualization: Address Translation Mechanisms and Free
+Space Management
+4/27/26, 1:18 PM Syllabus-CS307-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20237&origin=www_syllabus 7/8
+
+--- Page 8 ---
+Week Topic
+Week 11 Memory Virtualization: Swap Space
+Week 12 Persistence: Peripheral Devices and I/O Handling
+Week 13 Persistence: File System API and Implementation Problems
+Week 14 Security: Authentication & Access Control Mechanisms
+© 2026 Sabancı University
+4/27/26, 1:18 PM Syllabus-CS307-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20237&origin=www_syllabus 8/8

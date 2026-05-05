@@ -1,0 +1,86 @@
+[
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Introduction To Theoretical Aspects Of Computing: Modeling Algorithms And Their Run Times, Computational Complexity",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Linear Data Structures (Lists, Stacks, Queues)",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Trees (Binary Search Trees, Avl Trees, Tree Traversals)",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Hash Tables",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Priority Queues",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Disjoint Sets",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Sorting Algorithms",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Graphs And Their Representations",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Graph Algorithms (Depth First And Breadth First Search, Single Source Shortest Path Algorithms)",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_TOPIC",
+        "object": "Algorithmic Paradigms (Divide And Conquer, Greedy, Dynamic Programming)",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_PREREQ",
+        "object": "CS204",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "CS300",
+        "relation": "HAS_COREQ",
+        "object": "CS300R",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

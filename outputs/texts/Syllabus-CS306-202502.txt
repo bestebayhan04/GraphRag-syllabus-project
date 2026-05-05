@@ -1,0 +1,102 @@
+
+--- Page 1 ---
+ Print
+ Syllabus Application
+su 
+CS 306
+Database Systems
+Faculty Faculty of Engineering and Natural Sciences
+Semester Spring 2025-2026
+Course CS 306 - Database Systems
+Time/Place Time Week Day Place Date
+10:40-11:30 Mon SBS-G071 Feb 16-May 22, 2026
+11:40-13:30 Wed FENS-G077 Feb 16-May 22, 2026
+Level of course Undergraduate
+Course Credits SU Credit:3, ECTS:6, Engineering:6
+Prerequisites CS 204 or DSA 201
+Corequisites CS 306R
+Course Type Lecture
+Program Requirements
+
+Instructor(s) Information
+Yücel Saygın
+Email: ysaygin@sabanciuniv.edu
+Course Information
+Catalog Course Description
+4/27/26, 1:14 PM Syllabus-CS306-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20234&origin=www_syllabus 1/4
+
+--- Page 2 ---
+This course covers the fundamental topics in database management systems including
+ANSI/SPARC architecture, data abstraction, data independence; data definition and manipulation
+languages; entity-relationship and relational data models, integrity constraints, query languages
+like SQL, relational algebra and calculus, functional dependencies, normal forms, transaction
+processing recovery and concurrency control, data structure for database management systems
+such as indices, B-trees, hashing.
+Course Learning Outcomes:
+1. After the course, the student will be able to develop a database application
+starting with the conceptual design leading to logical and physical designs.
+2. After the course, the student will be competent on relational model and SQL.
+3. After the course, the student will be able to implement a database application
+based on a given design.
+4.
+After the course, the student will be able explain the concept of functional
+dependency and will be able to avoid redundancies and other problems causing
+by bad designs.
+5. After the course, the student will be able to explain how a DBMS concurrently
+handles the transactions and what happens after a system crash.
+6. After the course, the student will be able to explain how the data is physically
+stored, managed, and queried within the database.
+Course Objective
+To supply the students with the theory and practice of database management systems, and
+database application development.
+-
+Course Materials
+Resources:
+All materials are on sucourse
+Technology Requirements:
+4/27/26, 1:14 PM Syllabus-CS306-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20234&origin=www_syllabus 2/4
+
+--- Page 3 ---
+Laptops
+Assessment
+The final grade for this course will be based on:
+  Percentage (%) Number of assessment methods
+Final 35%
+Midterm 40% 1
+Participation 10%
+Group Project 15% 1
+Policies
+Course Policies:
+Check sucourse
+AI Policies
+Guidelines on the "Use of Generative AI" for students
+SU Academic Integrity Statement:
+https://www.sabanciuniv.edu/en/academic-integrity-statement
+Health Report Requirements
+Student Medical Reports Instruction Letter 
+Weekly Content
+Week Topic
+Week 1 Basics of Database Tools and Accessing Databases from the Internet
+Week 2 Entity Relationship (ER) Model
+4/27/26, 1:14 PM Syllabus-CS306-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20234&origin=www_syllabus 3/4
+
+--- Page 4 ---
+Week Topic
+Week 3 Relational Model and ER to Relational Model Conversion
+Week 4 Relational Algebra
+Week 5 From Relational Algebra to SQL
+Week 6 Advanced SQL Queries
+Week 7 Functional Dependencies
+Week 8 Database Normalization
+Week 9 Concurrency Control
+Week 10 Transaction Management
+Week 11 Basics of Data Storage
+Week 12 Indexing
+Week 13 Database Recovery
+Week 14 Query Optimization
+© 2026 Sabancı University
+4/27/26, 1:14 PM Syllabus-CS306-202502
+https://apps.sabanciuniv.edu/courses/syllabus/view.php?term=202502&crn=20234&origin=www_syllabus 4/4

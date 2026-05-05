@@ -1,0 +1,32 @@
+{
+    "source_file": "CS445_Spring2026_SONA.pdf",
+    "course_code": "CS445",
+    "course_title": "Natural Language Processing",
+    "prerequisites": [
+        "CS204",
+        "(CS210 or DSA210)"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Text processing",
+        "Regular expressions",
+        "Statistical properties of text",
+        "Edit distance",
+        "Language modeling",
+        "Text classification",
+        "Sequence modeling",
+        "Topic modeling",
+        "Computational morphology",
+        "Neural networks for NLP",
+        "Chatbots",
+        "Transfer learning for NLP"
+    ],
+    "learning_outcomes": [
+        "Describe the statistical properties of text in natural language.",
+        "Implement programs that can process textual data and extract valuable information from it.",
+        "Apply well-known language processing techniques to text.",
+        "Explain the significance and principles of language modeling.",
+        "Develop machine learning models to classify documents, sub-documents, or terms.",
+        "Assess the quality of natural language processing models applied to text."
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "source_file": "CS455_555 Syllabus.pdf",
+    "course_code": "CS455/555",
+    "course_title": "Large Language Models: Theoretical Foundations and Practical Applications",
+    "prerequisites": [
+        "CS415",
+        "CS412",
+        "CS512"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Overview of Word Embeddings",
+        "Introduction to Attention and Language Models",
+        "Natural Language Understanding with BERT",
+        "Natural Language Generation with GPT",
+        "Semantic Search with LLMs",
+        "Advanced Prompt Engineering and Implementing a RAG application"
+    ],
+    "learning_outcomes": [
+        "Design, implement, and evaluate complex LLM applications in real-world settings.",
+        "Gain hands-on experience with transformer architectures, semantic search, retrieval-augmented generation (RAG), and AI agents.",
+        "Understand cutting-edge methods for deploying LLMs locally and leveraging Knowledge Graphs to enhance LLM-based systems."
+    ]
+}

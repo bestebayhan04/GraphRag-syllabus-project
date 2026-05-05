@@ -1,0 +1,26 @@
+{
+    "source_file": "CS_411_Fall_2025_2026_Syllabus.pdf",
+    "course_code": "CS 411/507",
+    "course_title": "Cryptography",
+    "prerequisites": [
+        "MATH 204"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Classical cryptosystems",
+        "Basics of number theory",
+        "Symmetric key cryptography",
+        "Hash functions",
+        "Public key cryptosystems",
+        "Digital signatures",
+        "Implementation issues",
+        "Secure key establishment techniques",
+        "Secret sharing",
+        "Zero-knowledge proof"
+    ],
+    "learning_outcomes": [
+        "Study the theoretical aspects of cryptographic algorithms and protocols.",
+        "Integrate these techniques to solve particular data and communication security problems.",
+        "Embed security into an information system, providing integrity, confidentiality, and authenticity."
+    ]
+}

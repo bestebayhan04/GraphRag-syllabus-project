@@ -1,0 +1,103 @@
+
+--- Page 1 ---
+Sabancı University
+Spring 2025–2026
+CS 412 – Machine Learning
+Course Information
+Level of Course Undergraduate
+Prerequisites (MATH 201 and MATH 203)
+Course Page https://sucourse.sabanciuniv.edu/plus/course/view.php?id=12843
+Time & Place
+Time Week Day Place
+16:40–17:30 Monday SBS-G071
+16:40–18:30 Tuesday UC-G030
+Instructor Information
+Mohammad Yusaf Azimi
+Email: yusaf.azimi@sabanciuniv.edu
+Course Description
+This is an introductory machine learning course that will aim a solid understanding of the fundamental issues in machine learning
+(overfitting, bias/variance), together with several state-of-art approaches such as decision trees, linear regression, k-nearest neighbor,
+Bayesian classifiers, support vector machines, neural networks, logistic regression, and classifier combination.
+Course Learning Outcomes
+1. Have a solid understanding of the basic concepts, issues, assumptions and limitations in machine learning and how they apply to
+various machine learning techniques.
+2. Have a working knowledge of the basic mathematics (probability, expectation, entropy, basic linear algebra, ...) and algorithms
+behind common machine learning techniques; together with their suitability in given situations.
+3. Given a machine learning problem, select, implement and evaluate one of the appropriate machine learning algorithms (e.g.
+decision trees, neural networks, SVMs) using a programming environment such as Weka or Matlab.
+Course Objective
+To teach fundamentals of Machine Learning to students of all backgrounds, so that they will know its capabilities and limitations, and
+be able to design all aspects of a learning system.
+
+--- Page 2 ---
+Learning Objectives
+1. Understand the basic concepts, issues, assumptions, and limitations in machine learning (e.g., base accuracy, overfitting,
+bias/variance, curse of dimensionality...).
+2. Have a working knowledge of the basic mathematics (probability, expectation, entropy, basic linear algebra, ...) and algorithms
+behind common machine learning techniques, together with their suitability in given situations.
+3. Given a machine learning problem, be able to implement and evaluate one of the standard machine learning algorithms (e.g.,
+decision trees, neural networks, SVMs) using a tool such as Weka/Matlab or a programming language such as Python/R.
+Course Materials
+Textbook
+None. Normally, slides and lectures will be sufficient to do well on the exam; however, references to sections in one or two of the
+reference books below will be provided as a supplement to the lecture slides.
+Note that many Machine Learning or Pattern Recognition books are available online by their authors, and others will be on
+reserve in the IC.
+Reference Books
+The Elements of Statistical Learning – Hastie et al. (freely available)
+Probabilistic Machine Learning: An Introduction – K. Murphy (free draft version)
+Machine Learning – Ethem Alpaydin (online book available through IC)
+Neural Networks and Learning Machines – Haykin (e-book)
+Pattern Recognition and Machine Learning – Bishop (no online version)
+Assessment
+Assessment Method Percentage (%)
+Final 35%
+Midterm 30%
+Quizzes 10%
+Homeworks 25%
+Quizzes
+No makeup quizzes will be given for the short quizzes.
+We will have a quiz in almost every lecture hour via TopHat, and each quiz grade will be calculated as 50% attendance and 50%
+correctness.
+The final quiz grade will be the average of the best n − 3 quiz scores, where n is the total number of quizzes.
+Please note that the number of quizzes stated above is an estimate provided to satisfy form requirements; the actual number of
+quizzes may differ.
+Homeworks
+There will be five homework assignments in total, with no separate project.
+Passing Grade
+To pass the course, your overall grade as calculated above must be at least 40/100 (strict), and your final exam grade must be
+above 29/100 (i.e., you should be able to answer approximately one-third of the questions to demonstrate that you have learned
+the material).
+
+--- Page 3 ---
+Policies
+Time Conflicts & Attendance
+Time conflicts will be approved only with the understanding that students take full responsibility for any missed lectures and any
+resulting missed quiz grades.
+Regular lecture attendance is strongly encouraged for effective learning and for achieving a good course grade.
+Use of AI
+You may use ChatGPT or similar tools to obtain limited programming assistance for homework assignments.
+You are strongly discouraged from using such tools for “thinking” or “knowledge-based” questions, as similar questions may
+appear on exams.
+Any LLM usage must be for partial help only, not for generating complete answers.
+Homework submissions in which the code and report appear inconsistent or suggest overreliance on LLM-generated content
+may receive a grade of zero.
+The use of LLMs or any AI tools during quizzes or exams is strictly prohibited. Doing so constitutes a violation of academic
+integrity and will result in disciplinary action if detected.
+Make-Up
+No make-up quizzes will be given for short quizzes.
+If you miss a midterm or the final exam due to a documented valid excuse (e.g., a medical report), you will be allowed to take a
+make-up exam, which will take place after the final exams.
+Late Submission
+Late homework will be accepted for up to two days, with a penalty of 10 points per late day. Submissions made within the first hour
+after the deadline will receive a reduced penalty of 5 points.
+Tentative Outline
+1. Week 1-2: Introduction to ML concepts: supervised learning, regression, classification, features, train-validation, overfitting, error
+measures, …
+2. Week 3-4: Simple ML approaches: Linear regression; Logistic regression; Nearest Neighbor Classifier; Decision tree learning; Bias
+and Variance
+3. Week 5-6: Bayesian Approaches: Bayes theorem, Naïve Bayes, Multivariate Gaussian distribution, Maximum-likelihood estimation
+4. Week 7-8: Neural Networks – Multi-Layer Perceptron, Activation functions, Capabilities, Backpropagation
+5. Week 9-10: Ensemble Methods
+6. Week 11-12: Deep learning: Convolutional neural Networks, Transfer Learning
+7. Week 13-14: Unsupervised learning

@@ -1,0 +1,44 @@
+[
+    {
+        "subject": "CS58010",
+        "relation": "HAS_TOPIC",
+        "object": "Overview Of Parallel And Distributed Ml/Dl Algorithms",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS58010",
+        "relation": "HAS_TOPIC",
+        "object": "Performance And Scalability Of State-Of-The-Art Ml/Dl Systems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS58010",
+        "relation": "HAS_TOPIC",
+        "object": "Hardware-Accelerated Ml/Dl Solutions",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS58010",
+        "relation": "HAS_TOPIC",
+        "object": "Federated Machine Learning Systems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS58010",
+        "relation": "HAS_TOPIC",
+        "object": "Scaling Generative Ai Systems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS58010",
+        "relation": "HAS_TOPIC",
+        "object": "Scaling Graph Learning Systems",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    }
+]

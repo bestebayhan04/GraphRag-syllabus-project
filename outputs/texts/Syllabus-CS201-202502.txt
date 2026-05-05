@@ -1,0 +1,138 @@
+
+--- Page 1 ---
+Sabancı University
+Spring 2025–2026
+CS 201 – Programming Fundamentals
+Course Information
+Level of Course Undergraduate
+Prerequisites IF 100
+Course Page https://sucourse.sabanciuniv.edu/plus/course/view.php?id=13251
+Time & Place
+Section A
+Day Time Place
+Monday 12:40-14:30 SBS-G071
+Wednesday 12:40-13:30 FASS-G062
+Section B
+Day Time Place
+Monday 08:40-10:30 FASS-G062
+Wednesday 13:40-14:30 UC-G030
+Instructor Information
+Section A
+Mohammad Yusaf Azimi
+Email: yusaf.azimi@sabanciuniv.edu
+Section B
+Saima Gul
+Email: saima.gul@sabanciuniv.edu
+Catalog Course Description
+This course is intended to introduce students to the field of computing (basic computer organization, data representation, concepts,
+algorithmic thinking and problem solving), as well as give them intermediate level programming abilities in an object-oriented
+programming language
+
+--- Page 2 ---
+Course Learning Outcomes
+1. Upon successful completion of Introduction to Computing, students are expected to be able to: Describe the basics of computer
+architecture, programming languages and compilers
+2. Design an algorithm (step-by-step solution) for a given computing problem
+3. Write small C++ programs
+4. Use the basic programming concepts like if-else statements and while-for loops
+5. Use functions and describe different parameter passing methods
+6. Use, modify existing classes and design new classes
+7. Perform simple text file I/O operations
+8. Perform searches on arrays and sort arrays
+9. Perform basic complexity analysis on algorithms
+Course Objective
+To introduce students to the field of computing (basic computer organization, data representation, concepts, algorithmic thinking and
+problem solving), as well as giving them intermediate level programming abilities in an object-oriented programming language
+(currently C++).
+Course Materials
+Resources
+All course materials will be available on SUCourse, including:
+Lecture notes
+Recitation samples
+Example code
+Textbook: A Computer Science Tapestry, 2nd Edition, by Owen L. Astrachan (not available in the bookstore anymore, but available at
+the library and online).
+We may not follow the textbook at all times; you are responsible for all material covered in class.
+Technology Requirements
+Primary Recommendation: Visual Studio (Community Edition, Windows)
+Visual Studio will serve as the main IDE for this course.
+It offers a full-featured environment for C++ development, including a built-in compiler, debugger, and project management
+tools.
+Students using Windows should install the latest version of Visual Studio Community Edition (free for educational use).
+Alternative Option: Visual Studio Code (Cross-Platform, Lightweight)
+VS Code may be used if you prefer a lighter IDE, or if you are working on macOS/Linux.
+It requires additional setup for compiling and debugging C++ programs.
+Additional Setup for macOS Users (when using VS Code):
+1. Install Xcode Command Line Tools by running: xcode-select --install
+2. Ensure a C/C++ compiler is available (usually provided with the Xcode tools).
+3. Install the C/C++ extension in VS Code (by Microsoft).
+Note: While both IDEs are acceptable, in-class demonstrations and examples will primarily use Visual Studio.
+
+--- Page 3 ---
+Assessment
+Assessment Method Percentage (%)
+Final 35%
+Midterm x 2 40%
+Participation 6%
+Attendance 4%
+Homework 15%
+Grading Clarification
+Recitation Attendance – 4%: Attendance in recitation sessions is mandatory. This component accounts for 4% of your total
+grade. Recitations are used for reinforcement, clarifying homework, and hands-on problem-solving.
+Lecture Participation – 6%: Class participation will be tracked and evaluated through TopHat activities during lectures. To
+receive credit, students must be present and participate in these activities. The quiz grade will be based 50% on participation and
+50% on correctness.
+Homework Assignments – 15%: There will be 5 code-based homework assignments, distributed and submitted via SUCourse+.
+All homework assignments will be graded individually and may or may not have the same weight. Recitation sessions will be
+used for clarifying homework requirements and discussing solutions.
+Midterms – 40%: There will be a total of two midterms, each of which is weighted 20% of the overall grade, and the dates are to
+be announced later. The midterms will assess both your theoretical knowledge of the subjects studied in class and the practical
+knowledge gained through homework and recitations.
+Final – 35%: The final will account for 35% of the overall grade and will be scheduled by Student Resources. The final will assess
+both your theoretical knowledge of the subjects studied in class and the practical knowledge gained through homework and
+recitations.
+Policies
+Make-Up
+No makeups for participation and homework.
+If you miss one exam (either a midterm or the final) due to a documented valid excuse (e.g., a medical report), you will be
+allowed to take a make-up exam after the final exams. You may not miss more than one exam. If more than one exam is missed,
+the make-up exam will replace the highest-weighted missed exam, and the remaining missed exam(s) will receive a grade of
+zero.
+Make-up exams are often more comprehensive and cover all topics taught in the course from start to end.
+Late Submission
+Late submission will be accepted for up to two days, with a penalty of 10 points per late day. Submissions made within the first hour
+after the deadline will receive a reduced penalty of 5 points.
+Academic Integrity
+Sharing work or submitting similar solutions (with other students or AI) is considered plagiarism.
+Plagiarism cases will be referred to the Dean’s Office for disciplinary action.
+Special Notes
+Students are responsible for announcements made in lectures, SUCourse+, and email.
+Regularly check your Sabancı University email.
+Failure to follow announcements is not a valid excuse.
+
+--- Page 4 ---
+Use of AI
+Since this is an introductory course, we strongly recommend that you avoid using AI tools (such as ChatGPT) as much as possible
+and use them very responsibly.
+You may use AI tools to enhance your learning and improve your understanding of the course material; however, generating
+complete homework solutions using these tools is not permitted.
+Homework submissions found to rely excessively on LLM-generated content may receive a grade of zero and/or require the
+student to complete an oral examination.
+The use of LLMs or any AI tools during quizzes or exams, or to generate complete homework submissions, is strictly prohibited.
+Such use constitutes a violation of academic integrity and will result in disciplinary action if detected.
+Weekly Content
+1. Week 1: Introduction to Programming Languages, Data Representation (bits and bytes), basic programming structure and
+concepts: identifiers, literals, symbols, variables, screen input/output
+2. Week 2: Basic data types (int/double/char/bool) and basic arithmetic operations with their precedence, first C++ program
+3. Week 3: Conditional statements (if-else), nested else-if statements, logical operators (&&, ||, !)
+4. Week 4: Functions with/out return values, function prototypes, parameter passing (pass by value and by reference)
+5. Week 5: Intro to String class, Loops (while, for, do-while)
+6. Week 6: Loops (while, for, do-while), char data type, string, and character processing
+7. Week 7: File I/O, console stream cin, input and output file streams, string streams
+8. Week 8: Structs, enum, vectors/arrays, and vector operations
+9. Week 9: Vector operations: insert/delete to a vector
+10. Week 10: Vector of structs, matrix
+11. Week 11: Classes and objects: using existing classes such as Dice, RandGen, Date
+12. Week 12: Classes and objects: using and modifying existing classes such as Dice, RandGen, Date
+13. Week 13: Recursion
+14. Week 14: Sequential/binary search, Sorting (selection and insertion sort), and introduction to algorithm complexity analysis

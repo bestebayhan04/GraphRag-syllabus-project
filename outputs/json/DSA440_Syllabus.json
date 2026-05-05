@@ -1,0 +1,28 @@
+{
+    "source_file": "DSA440_Syllabus.pdf",
+    "course_code": "DSA440/CS540",
+    "course_title": "Data and Artificial Intelligence (AI) Ethics",
+    "prerequisites": [],
+    "corequisites": [],
+    "topics": [
+        "Introduction to Artificial Intelligence and Its Use",
+        "Data Ethics",
+        "Big Data and Large AI Models",
+        "Privacy",
+        "Bias in AI Systems",
+        "Fairness, Accountability, and Transparency",
+        "Explainability, Contestability, and Answerability",
+        "Human Oversight on AI",
+        "Applied AI Ethics",
+        "AI Use in High-Stake Domains (Healthcare, Government, Education)",
+        "AI in Business",
+        "AI Policies and Governance around the World",
+        "Sustainability and Impact on Environment"
+    ],
+    "learning_outcomes": [
+        "describe ethical issues surrounding collection and use of data",
+        "explain concepts around AI ethics such as fairness, accountability, transparency, privacy, and sustainability",
+        "assess AI systems according to the ethical AI principles",
+        "design AI systems with ethical AI principles in mind"
+    ]
+}

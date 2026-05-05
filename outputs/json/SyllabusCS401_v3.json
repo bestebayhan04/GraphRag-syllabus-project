@@ -1,0 +1,26 @@
+{
+    "source_file": "SyllabusCS401_v3.pdf",
+    "course_code": "CS401",
+    "course_title": "Computer Architectures",
+    "prerequisites": [
+        "CS303"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Instruction set design",
+        "Computer arithmetic",
+        "Controller and datapath design",
+        "Cache and memory systems",
+        "Input-output systems",
+        "Interrupts and exceptions",
+        "Pipelining",
+        "Performance"
+    ],
+    "learning_outcomes": [
+        "Understand the basic concepts of computer architectures.",
+        "Design a simple instruction set for a computer system.",
+        "Implement a basic controller and datapath design.",
+        "Optimize cache and memory systems for performance.",
+        "Understand input-output systems and interrupts."
+    ]
+}

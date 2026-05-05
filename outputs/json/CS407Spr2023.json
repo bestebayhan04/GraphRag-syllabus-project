@@ -1,0 +1,31 @@
+{
+    "source_file": "CS407Spr2023.pdf",
+    "course_code": "CS 407",
+    "course_title": "Theory of Computation",
+    "prerequisites": [
+        "CS 503"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Turing Machines: Definition, Representations and Computational Concepts",
+        "Extended Turing Machines: Multitape, RAM Machine and Equivalences",
+        "Nondeterministic TM",
+        "Grammars and Computation",
+        "Numerical functions: primitive recursion and μ - recursion",
+        "Computational equivalence of grammars, TMs and recursive functions",
+        "Up-down counter and Universal Turing Machines",
+        "Decidability: Church Turing thesis and the Halting Problem",
+        "Reducability and Unsolvable Problems",
+        "Recursion",
+        "Computational Complexity: Concepts and Definitions",
+        "The Class P and NP",
+        "Polynomial Reductions and NP-Completeness",
+        "Cook’s Theorem",
+        "Some NP- Complete Problems",
+        "Space Complexity"
+    ],
+    "learning_outcomes": [
+        "A total of 10 quizzes each of 20 minutes duration will be given during chosen class lectures;",
+        "minimum 7 quiz entries are required for a passing grade irrespective of health or similar legitimate-looking excuses."
+    ]
+}

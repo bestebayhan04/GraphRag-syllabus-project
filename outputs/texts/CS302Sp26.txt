@@ -1,0 +1,19 @@
+
+--- Page 1 ---
+CS 302 - Formal Languages & Automata Theory Spring 2026   NAME / SCHEDULE E-MAIL / PLACE OFFICE HOUR  INSTRUCTOR Kemal İNAN inan By appointment TA Alperen DOĞAN alperend / FENS L045  
+LA's       
+LECTURES Tu 13:40 - 14:30  F 10:40 - 12:30 FENS L045 FASS G018  
+RECITATION Tu 18.40 - 19.30 FASS 1010   Main Text: Introduction to Automata Theory, Languages and Computation , Hopcroft, Motwani & Ullman, Pearson (Addison Wesley) 2006 , 3rd edition Auxiliary Text:  Elements of the Theory of Computation, Lewis & Papadimitriou, Prentice Hall 1998. Grading Policy: 35% Quizzes, 25% MT, 40% Final Important: 10 quizzes with 15 or 20 minute durations each shall be part of the course. Quizzes will be held during chosen lectures. A student missing more than 3 quizzes fails irrespective of medical or any other excuse! The overall quiz grading will be the average of the best 7 out of 10. Homework Policy: There will be 8 HWs as part of the course. HWs will NOT be collected or  graded ; but questions throughout all exams and quizzes may involve HW topics and questions.
+
+--- Page 2 ---
+Tentative Schedule (green dates = Friday 2 hour lectures)  
+        
+ February     17 1 20 1,2 HW1  
+24 2  27 2,3   March 3 3 HW2 6 3,4  10 4  13 5 17 5 HW3  
+24 6  27 6,8 31 8   April 3 8,7 HW4  
+7 7  10 7 14 Midterm  17 9  21 10,11 24 12  HW5  
+28 12   May 5 12  8 12,13 HW6  
+12 14  15 15 19 16 22 16 HW7
+
+--- Page 3 ---
+Tentative Course Outline 1 – Introduction: Languages, Automata and Grammars (Main Text (MT) 1.1, 1.5) Slide1 2 – Deterministic Finite Automata as Language Acceptors (DFA) (MT 2.1, 2.2) S2 3 – Nondeterministic Finite Automata (NFA) and Linguistic Equivalence to DFA (MT 2.3 - 2.5) S2 4 – Regular Expressions (RE) (MT 3.1) S3 5 – RE and NFA (M.T 3.2) S3 6 – Regular Languages and Properties (M.T. 4.1, 4.2) S3-S4 7 – State Equivalence and Minimal State DFA (MT 4.4) S4 8 – Algorithms for the DFA and NFA (MT 4.3, 4.4) S4 9 – Context-Free Grammars (CFG) (MT 5.1) S5 10– Parse Trees and Applications (MT 5.2, 5.3) S5 11 – Ambiguity in Grammars and Languages (M.T. 5.4) S5 12 – Pushdown Automata (PDA) (MT 6.1, 6.2) S6 13 – CFG and PDA (M.T. 6.3) S6 14 – Deterministic Context-Free Languages (MT 6.4) S6-S7 15 – Properties of and Algorithms for Context Free Languages (MT 7.1,7.2, 7.4) S7 16 - Determinism and Parsing (AT 3.7, p 158-177) S7 17 - Introduction to Turing Machines (AT Chapters 4 ,5 selections) S8

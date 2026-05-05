@@ -1,0 +1,93 @@
+[
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Ansi/Sparc Architecture",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Data Abstraction",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Data Independence",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Entity-Relationship And Relational Data Models",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Integrity Constraints",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Query Languages Like Sql, Relational Algebra And Calculus",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Functional Dependencies",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Normal Forms",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Transaction Processing Recovery And Concurrency Control",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_TOPIC",
+        "object": "Data Structure For Database Management Systems Such As Indices, B-Trees, Hashing",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_PREREQ",
+        "object": "CS204",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_PREREQ",
+        "object": "DSA201",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "CS306",
+        "relation": "HAS_COREQ",
+        "object": "CS306R",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

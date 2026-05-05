@@ -1,0 +1,19 @@
+{
+    "source_file": "syllabus-iot-21.pdf",
+    "course_code": "CS210",
+    "course_title": "IoT Sensing Systems",
+    "prerequisites": [
+        "CS204"
+    ],
+    "corequisites": [],
+    "topics": [
+        "Introduction to Internet of Things",
+        "Sensing",
+        "System Considerations",
+        "Privacy in Sensing",
+        "Mobile/Embedded Computing & Wearables",
+        "Edge Computing",
+        "Cool Applications"
+    ],
+    "learning_outcomes": []
+}

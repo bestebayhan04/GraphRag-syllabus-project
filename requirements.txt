@@ -1,0 +1,7 @@
+langchain
+langchain-community
+pypdf
+networkx
+matplotlib
+neo4j
+requests

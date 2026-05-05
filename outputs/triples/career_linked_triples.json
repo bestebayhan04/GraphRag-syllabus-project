@@ -1,0 +1,156 @@
+[
+    {
+        "subject": "Data Scientist",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Machine Learning",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Machine Learning",
+        "relation": "TAUGHT_IN",
+        "object": "CS404",
+        "subject_type": "Topic",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Data Scientist",
+        "relation": "RECOMMENDED_COURSE",
+        "object": "CS404",
+        "subject_type": "Career",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Data Scientist",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Statistics",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Data Scientist",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Regression",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Data Scientist",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Clustering",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Machine Learning",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Machine Learning",
+        "relation": "TAUGHT_IN",
+        "object": "CS404",
+        "subject_type": "Topic",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "RECOMMENDED_COURSE",
+        "object": "CS404",
+        "subject_type": "Career",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Deep Learning",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Neural Network",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Neural Network",
+        "relation": "TAUGHT_IN",
+        "object": "CS512",
+        "subject_type": "Topic",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "RECOMMENDED_COURSE",
+        "object": "CS512",
+        "subject_type": "Career",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Optimization",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Cybersecurity Analyst",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Security",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Cybersecurity Analyst",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Privacy",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Privacy",
+        "relation": "TAUGHT_IN",
+        "object": "DSA440/CS540",
+        "subject_type": "Topic",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Cybersecurity Analyst",
+        "relation": "RECOMMENDED_COURSE",
+        "object": "DSA440/CS540",
+        "subject_type": "Career",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Cybersecurity Analyst",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Network",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Data Engineer",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Database",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Data Engineer",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Cloud Computing",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "Data Engineer",
+        "relation": "REQUIRES_TOPIC",
+        "object": "Data Mining",
+        "subject_type": "Career",
+        "object_type": "Topic"
+    }
+]

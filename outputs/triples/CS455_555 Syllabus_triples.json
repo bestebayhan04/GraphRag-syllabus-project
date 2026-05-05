@@ -1,0 +1,65 @@
+[
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_TOPIC",
+        "object": "Overview Of Word Embeddings",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_TOPIC",
+        "object": "Introduction To Attention And Language Models",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_TOPIC",
+        "object": "Natural Language Understanding With Bert",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_TOPIC",
+        "object": "Natural Language Generation With Gpt",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_TOPIC",
+        "object": "Semantic Search With Llms",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_TOPIC",
+        "object": "Advanced Prompt Engineering And Implementing A Rag Application",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_PREREQ",
+        "object": "CS415",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_PREREQ",
+        "object": "CS412",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "CS455/555",
+        "relation": "HAS_PREREQ",
+        "object": "CS512",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

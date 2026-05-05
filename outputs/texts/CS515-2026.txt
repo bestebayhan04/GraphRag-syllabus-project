@@ -1,0 +1,105 @@
+
+--- Page 1 ---
+CS 515 – Deep Learning
+Spring 2026
+Catalogue Data:
+This course covers the theory and foundations of Artificial Neural Networks (ANN) and various
+shallow neural network architectures, including single and multi-layer perceptrons, Hopfield
+and Kohonen networks, and deep learning architectures such as convolutional neural networks,
+recurrent networks, autoencoders, generative adversarial networks, and transformers. Students
+are expected to develop deep learning systems for machine learning problems in computer vision
+and/or natural language understanding.
+Prerequisites:
+CS412 or CS512 or EE566 or equivalent, or instructor approval.
+Instructor:
+•Emre ¨Ozfatura (emre.ozfatura@sabanciuniv.edu)
+References
+•Jurafsky book (Online) – Very accessible for the basics of neural networks
+•Ethem Alpaydin book (Online via IC) – General machine learning
+•Haykin book (On SuCourse) – Signal processing perspective
+•Neural Networks and Deep Learning– Long and detailed, limited scope but strong coverage
+•Deep Learning (Goodfellow et al.) – Broad coverage, less readable
+•Blogs and YouTube tutorials (shared during the course)
+Grading
+•Midterm Exam: 30% (Week 10)
+•Home-works (individual projects): 30% (3–4 Python programming assignments)
+•Group Project: 30% (Reading, implementing, and presenting SoTA models)
+•Paper Presentations: 10% (present novel works/ideas without implementation )
+•Bonus: Up to 10% (extra work, tools, submissions, contributions to vision library)
+1
+
+--- Page 2 ---
+Course Format
+Lectures will be instructor-led during the first weeks, with increasing student participation,
+paper discussions, and presentations after Week 4.
+Weekly Schedule
+W eek T opics Slides / Read-
+ing
+Homework
+Week 1 Course Information
+Neural Networks: Motivation
+Perceptron Learning Rule
+Perceptron Limitations
+nn1, nn2, nn3 –
+Week 2 Multi-layer Perceptrons
+Backpropagation
+Backpropagation Alternatives
+nn4, References HW1: Gradient
+Descent
+Week 3 Introduction to Deep Learning
+Convolutional Neural Networks
+nn5, References –
+Week 4 Convolutional Neural Networks
+Well-known Architectures
+nn6, Assigned Pa-
+pers
+HW2: Transfer
+Learning with
+ConvNets
+Week 5 Object Detection and Classification nn7, Assigned Pa-
+pers
+–
+Week 6 Object Detection and Classification
+(cont.)
+Papers Tentative/Bonus:
+HW3a Object De-
+tection (YOLO /
+Fast R-CNN)
+Week 7 Unsupervised Learning Paradigm
+Autoencoders
+Word Embeddings
+nn8, Assigned Pa-
+pers
+Tentative/Bonus:
+HW3b Autoen-
+coders or Word
+Embeddings
+Week 8 Unsupervised Learning (cont.)
+Generative Models (GANs)
+nn9, Assigned Pa-
+pers
+–
+Week 9 Sequence Learning
+Recurrent Neural Networks
+LSTMs (briefly)
+nn10 –
+Week 9 Transformers nn11, Tutori-
+als/Papers
+HW4: Transform-
+ers
+Week 10 Transformers (cont.) Tutorials/Papers –
+Week 11 Midterm Exam
+Project Selection
+Slides –
+Week 12 Project Work
+Additional Lectures / Papers
+Slides –
+Week 13 Advanced Topics / Project Work Slides –
+Week 14 Advanced Topics / Project Work Slides –
+2
+
+--- Page 3 ---
+Finals Week No Final Exam
+Project Presentations
+– –
+3

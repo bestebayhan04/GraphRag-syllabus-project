@@ -1,0 +1,72 @@
+[
+    {
+        "subject": "DSA210",
+        "relation": "HAS_TOPIC",
+        "object": "Exploratory Data Analysis",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_TOPIC",
+        "object": "Data Visualization",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_TOPIC",
+        "object": "Probability Review",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_TOPIC",
+        "object": "Hypothesis Testing",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_TOPIC",
+        "object": "Machine Learning - Supervised",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_TOPIC",
+        "object": "Machine Learning - Unsupervised",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_TOPIC",
+        "object": "Causal Inference",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_TOPIC",
+        "object": "Time Series Analysis And Forecasting",
+        "subject_type": "Course",
+        "object_type": "Topic"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_PREREQ",
+        "object": "IF100",
+        "subject_type": "Course",
+        "object_type": "Course"
+    },
+    {
+        "subject": "DSA210",
+        "relation": "HAS_PREREQ",
+        "object": "MATH203",
+        "subject_type": "Course",
+        "object_type": "Course"
+    }
+]

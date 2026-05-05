@@ -1,0 +1,98 @@
+
+--- Page 1 ---
+DSA 440/CS540 - Data and Artificial Intelligence (AI) Ethics
+Spring 2026
+Instructor: Dilara Kek¨ ull¨ uo˘ glu Email: dilara.kekulluoglu@sabanciuniv.edu
+Time: M 10:40-12:30, W 15:40-16:30 Place: M FENS L045, W UC G030 (Cinema Hall)
+TAs: TBD
+Office Hours:
+Dilara Kek¨ ull¨ uo˘ glu Wednesday 10:00-11:00 FENS 1089
+You can also come visit the instructor in their office by appointment through email. Please add
+DSA440/CS540 in the subject in your emails so we do not miss them.
+Main Reference: No main reference. There will be open-access articles and tools as references, shared
+every week.
+Contents: Artificial Intelligence systems have become increasingly involved in our lives. These systems
+can be used in relatively low-stakes decision making such as recommender systems but they are also used
+in medical contexts too. More recently, the wider public utilize generative AI tools such as ChatGPT and
+Midjourney to write documents, reports, and emails, or create pictures, and logos to use in various ways.
+All of these introduce ethical challenges with implications for data ethics, privacy, bias, sustainability, and
+so on. This course will introduce the ethical implications of artificial intelligence to the students. We will
+also discuss our role in this and how to take steps to minimize harm as people working with big data and
+AI (e.g. future researchers, software engineers, or analysts).
+Learning Objectives: This course aims to give an introduction to artificial intelligence ethics. A student
+who successfully fulfills the course requirements will be able to:
+1. describe ethical issues surrounding collection and use of data
+2. explain concepts around AI ethics such as fairness, accountability, transparency, privacy, and sus-
+tainability.
+3. assess AI systems according to the ethical AI principles
+4. design AI systems with ethical AI principles in mind
+page 1 of 3
+
+--- Page 2 ---
+DSA440/CS540 Artificial Intelligence Ethics
+Course Outline: We will discuss the following topics in the course.
+• Introduction to Artificial Intelligence and Its Use
+• Data Ethics
+• Big Data and Large AI Models
+• Privacy
+• Bias in AI Systems
+• Fairness, Accountability, and Transparency
+• Explainability, Contestability, and Answerability
+• Human Oversight on AI
+• Applied AI Ethics
+• AI Use in High-Stake Domains (Healthcare, Government, Education)
+• AI in Business
+• AI Policies and Governance around the World
+• Sustainability and Impact on Environment
+Grading Policy: Active Participation (15%), Take-Home Assignments (20%), Group Project (25%),
+Midterm Exam (40%).
+Important Dates: These dates are tentative and subject to change. We will notify you of the exact dates
+for the midterm exam.
+Midterm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Week 10
+Project Deadline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Week 14
+Class Policy:
+• Regular attendance is essential and expected. Attendance will be taken but will not count towards
+your final grade. Active participation will be measured by TopHat questions and case study exercises
+in-class.
+• Reading list will be provided for each week. I expect that essential reading will be done before coming
+to the lecture. Discussion will be based on these readings. Midterm will have questions from the
+readings.
+• You have three points you can use for late submissions. Every day you are late for an assignment
+will remove a point from your balance. You can use these three points as you wish for the take-home
+assignments. If you do not have any points left, you will receive zero marks for missed deadlines.
+• Late submissions are not accepted for the project deadlines.
+Grading:
+• Midterm exam, take-home assignments, active participation, and the group project will be counted
+for the last letter grade.
+page 2 of 3
+
+--- Page 3 ---
+DSA440/CS540 Artificial Intelligence Ethics
+• Letter grades will be assigned based on the curve, considering the distribution of the grades in the
+class. If the class average is too high, we can apply catalogue grades.
+• Any one of the following leads to failing the course automatically: (1) overall total grade below 40
+(over 100), (2) any exam grade below 30 (over 100). However, satisfying these conditions does not
+guarantee you will pass the course (e.g., you may still fail with a total grade over 40, depending on
+the course grade distribution).
+Generative AI Policy
+Students may use AI tools under specific conditions. For assignments and group projects, you are not
+allowed to write the code from scratch with an AI tool. You may use AI tools to give you suggestions for
+functionalities you want and to debug your code, like you would use Google Search (e.g., what library to use
+for spellchecking, how to fix XXX error). However, you should not generate the entirety of the code with an
+AI tool (e.g., write an intent detection system for me). You are responsible for your own submissions. Please
+double-check and test the suggestions provided by the AI tool to ensure they are working correctly. For the
+project reports, AI tools may only be used for editing purposes (e.g., grammar and clarity). Generating
+content, such as writing sections of the report, structuring arguments, or producing analysis with AI, is not
+permitted. No distinction is made between different AI platforms; all tools are treated equally under this
+policy. You are allowed to upload course materials to AI tools for studying, but do not upload the course
+materials online publicly.
+This approach is intended to support students’ learning and writing skills while ensuring that the core
+analytical and conceptual work in the term project reflects their own understanding. For any questions
+about the AI policy, students should contact the course instructor directly via email or during office hours.
+In addition, students should be informed of the “Guidelines on the Use of Generative AI”, which outlines
+Sabancı University’s general approach to the use of AI in education.
+Academic Honesty: All students must follow the university guidelines of academic integrity. https:
+//www.sabanciuniv.edu/en/academic-integrity-statement
+Flexibility: The contents of the syllabus are subject to change. The students will be notified when there
+is an update.
+page 3 of 3

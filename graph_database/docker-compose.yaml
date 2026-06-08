@@ -1,0 +1,15 @@
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j-container
+    ports:
+      - "7474:7474" # Neo4j Browser
+      - "7687:7687" # Bolt protocol
+    environment:
+      # Set your own username and password
+      - NEO4J_AUTH=neo4j/kg_project
+    volumes:
+      - ./neo4j/data:/data
+      - ./neo4j/logs:/logs
+      - ./neo4j/conf:/conf
+    # restart: always

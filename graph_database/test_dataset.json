@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "courses": [
+      {
+        "source file": "cs101.pdf",
+        "course code": "CS101",
+        "course title": "Intro to Programming",
+        "topics": ["Variables", "Loops", "Functions"],
+        "learning outcomes": ["Write basic scripts", "Understand logic"]
+      },
+      {
+        "source file": "cs201.pdf",
+        "course code": "CS201",
+        "course title": "Data Structures",
+        "topics": ["Arrays", "Linked Lists"],
+        "learning outcomes": ["Analyze algorithm complexity"]
+      }
+    ],
+    "occupations": [
+      {
+        "id": "SWE_01",
+        "title": "Software Engineer",
+        "alternative titles": ["Developer", "Programmer"],
+        "description": "Design and build software applications."
+      }
+    ],
+    "skills": [
+      {
+        "id": "SK_PYTHON",
+        "title": "Python Programming"
+      },
+      {
+        "id": "SK_DSA",
+        "title": "Data Structures & Algorithms"
+      }
+    ]
+  },
+  "edges": [
+    ["CS101", "CS201", "prereq"],
+    ["CS101", "SK_PYTHON", "covers"],
+    ["CS201", "SK_DSA", "covers"],
+    ["SWE_01", "SK_PYTHON", "requires"],
+    ["SWE_01", "SK_DSA", "requires"]
+  ]
+}

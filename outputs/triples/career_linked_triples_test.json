@@ -1,0 +1,163 @@
+[
+    {
+        "subject": "Data Scientist",
+        "relation": "REQUIRES_SKILL",
+        "object": "Machine Learning",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Machine Learning",
+        "relation": "TAUGHT_IN",
+        "object": "DSA210",
+        "subject_type": "Skill",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Data Scientist",
+        "relation": "REQUIRES_SKILL",
+        "object": "Statistics",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Statistics",
+        "relation": "TAUGHT_IN",
+        "object": "DSA210",
+        "subject_type": "Skill",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Data Scientist",
+        "relation": "REQUIRES_SKILL",
+        "object": "Regression",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Data Scientist",
+        "relation": "REQUIRES_SKILL",
+        "object": "Clustering",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Clustering",
+        "relation": "TAUGHT_IN",
+        "object": "DSA210",
+        "subject_type": "Skill",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Data Scientist",
+        "relation": "RECOMMENDED_COURSE",
+        "object": "DSA210",
+        "subject_type": "Career",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "REQUIRES_SKILL",
+        "object": "Machine Learning",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Machine Learning",
+        "relation": "TAUGHT_IN",
+        "object": "DSA210",
+        "subject_type": "Skill",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "REQUIRES_SKILL",
+        "object": "Deep Learning",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Deep Learning",
+        "relation": "TAUGHT_IN",
+        "object": "DSA210",
+        "subject_type": "Skill",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "REQUIRES_SKILL",
+        "object": "Neural Network",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "REQUIRES_SKILL",
+        "object": "Optimization",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Machine Learning Engineer",
+        "relation": "RECOMMENDED_COURSE",
+        "object": "DSA210",
+        "subject_type": "Career",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Cybersecurity Analyst",
+        "relation": "REQUIRES_SKILL",
+        "object": "Security",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Cybersecurity Analyst",
+        "relation": "REQUIRES_SKILL",
+        "object": "Privacy",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Cybersecurity Analyst",
+        "relation": "REQUIRES_SKILL",
+        "object": "Network",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Data Engineer",
+        "relation": "REQUIRES_SKILL",
+        "object": "Database",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Data Engineer",
+        "relation": "REQUIRES_SKILL",
+        "object": "Cloud Computing",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Data Engineer",
+        "relation": "REQUIRES_SKILL",
+        "object": "Data Mining",
+        "subject_type": "Career",
+        "object_type": "Skill"
+    },
+    {
+        "subject": "Data Mining",
+        "relation": "TAUGHT_IN",
+        "object": "DSA210",
+        "subject_type": "Skill",
+        "object_type": "Course"
+    },
+    {
+        "subject": "Data Engineer",
+        "relation": "RECOMMENDED_COURSE",
+        "object": "DSA210",
+        "subject_type": "Career",
+        "object_type": "Course"
+    }
+]

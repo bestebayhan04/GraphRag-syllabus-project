@@ -5,3 +5,4 @@ networkx
 matplotlib
 neo4j
 requests
+sentence-transformers

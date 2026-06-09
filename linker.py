@@ -1,126 +1,93 @@
-import json
-import os
-from typing import Any, Dict, List, Set
+from typing import Any, Dict, List
+from sentence_transformers import SentenceTransformer, util
 
 
-def normalize_topic(topic: str) -> str:
-    aliases = {
-        "ml": "Machine Learning",
-        "machine-learning": "Machine Learning",
-        "machine learning": "Machine Learning",
-        "ai": "Artificial Intelligence",
-        "artificial intelligence": "Artificial Intelligence",
-        "dl": "Deep Learning",
-        "deep-learning": "Deep Learning",
-        "deep learning": "Deep Learning",
-        "nn": "Neural Network",
-        "neural networks": "Neural Network",
-        "neural network": "Neural Network",
-    }
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
-    cleaned = topic.strip().lower()
-    return aliases.get(cleaned, cleaned.title())
+def get_course_texts(course_data: Dict[str, Any]) -> List[str]:
+    """Flattens all learning outcomes and topics from a syllabus into a single list."""
+    texts = []
+    texts.extend(course_data.get("topics", []))
+    texts.extend(course_data.get("learning_outcomes", []))
+    return texts
 
-
-def load_json_files(folder_path: str) -> List[Dict[str, Any]]:
-    items = []
-
-    if not os.path.exists(folder_path):
-        return items
-
-    for filename in os.listdir(folder_path):
-        if filename.endswith(".json"):
-            path = os.path.join(folder_path, filename)
-
-            with open(path, "r", encoding="utf-8") as file:
-                items.append(json.load(file))
-
-    return items
+def get_best_match_score(
+    skill_embedding: Any,
+    course_data: Dict[str, Any],
+) -> float:
+    """Returns the max similarity score between a skill and any text in a course syllabus."""
+    texts = get_course_texts(course_data)
+    if not texts:
+        return 0.0
+    text_embeddings = model.encode(texts, convert_to_tensor=True)
+    similarities = util.cos_sim(skill_embedding, text_embeddings)[0]
+    return float(similarities.max())
 
 
-def load_career_json(path: str) -> List[Dict[str, Any]]:
-    with open(path, "r", encoding="utf-8") as file:
-        return json.load(file)
-
-
-def build_course_topic_index(
-    course_jsons: List[Dict[str, Any]]
-) -> Dict[str, Set[str]]:
-    topic_to_courses: Dict[str, Set[str]] = {}
-
+def find_courses_for_skill(
+    skill: str,
+    course_jsons: List[Dict[str, Any]],
+    similarity_threshold: float,
+) -> List[str]:
+    """Returns a list of course codes whose syllabus matches the skill above threshold."""
+    skill_embedding = model.encode(skill, convert_to_tensor=True)
+    course_list = []
     for course_data in course_jsons:
-        course_code = course_data.get("course_code")
-
+        course_code = course_data.get("course_code", "").replace(" ", "").upper()
         if not course_code:
             continue
-
-        course_code = course_code.replace(" ", "").upper()
-
-        for topic in course_data.get("topics", []):
-            normalized_topic = normalize_topic(topic)
-
-            if normalized_topic not in topic_to_courses:
-                topic_to_courses[normalized_topic] = set()
-
-            topic_to_courses[normalized_topic].add(course_code)
-
-    return topic_to_courses
+        score = get_best_match_score(skill_embedding, course_data)
+        if score >= similarity_threshold:
+            course_list.append(course_code)
+    return course_list
 
 
-def build_career_triples(
+def build_skill_course_map(
+    skills: List[str],
+    course_jsons: List[Dict[str, Any]],
+    similarity_threshold: float,
+) -> Dict[str, List[str]]:
+    """Builds {skill: [course_codes]} dict for a list of skills."""
+    return {
+        skill.strip().title(): find_courses_for_skill(skill, course_jsons, similarity_threshold)
+        for skill in skills
+    }
+
+
+def filter_linked_courses(
+    skill_course_map: Dict[str, List[str]],
+    coverage_threshold: float,
+) -> List[str]:
+    """Returns courses that appear in enough skills to meet the coverage threshold."""
+    total_skills = len(skill_course_map)
+    all_courses = {course for courses in skill_course_map.values() for course in courses}
+    return [
+        course for course in all_courses
+        if sum(1 for courses in skill_course_map.values() if course in courses) / total_skills >= coverage_threshold
+    ]
+
+
+def build_career_course_links(
     careers: List[Dict[str, Any]],
-    topic_to_courses: Dict[str, Set[str]]
-) -> List[Dict[str, str]]:
-    triples = []
+    course_jsons: List[Dict[str, Any]],
+    similarity_threshold: float = 0.5,
+    coverage_threshold: float = 0.3,
+) -> List[Dict[str, Any]]:
 
+    results = []
     for career_data in careers:
-        career = career_data.get("career")
-
-        if not career:
+        career = career_data.get("career", "").strip()
+        skills = career_data.get("topics", [])
+        if not career or not skills:
             continue
 
-        career = career.strip()
+        skill_course_map = build_skill_course_map(skills, course_jsons, similarity_threshold)
+        linked_courses = filter_linked_courses(skill_course_map, coverage_threshold)
 
-        for topic in career_data.get("topics", []):
-            normalized_topic = normalize_topic(topic)
+        results.append({
+            "career": career,
+            "skill_course_map": skill_course_map,
+            "linked_courses": linked_courses,
+        })
 
-            triples.append({
-                "subject": career,
-                "relation": "REQUIRES_TOPIC",
-                "object": normalized_topic,
-                "subject_type": "Career",
-                "object_type": "Topic"
-            })
-
-            matching_courses = topic_to_courses.get(normalized_topic, set())
-
-            for course in matching_courses:
-                triples.append({
-                    "subject": normalized_topic,
-                    "relation": "TAUGHT_IN",
-                    "object": course,
-                    "subject_type": "Topic",
-                    "object_type": "Course"
-                })
-
-                triples.append({
-                    "subject": career,
-                    "relation": "RECOMMENDED_COURSE",
-                    "object": course,
-                    "subject_type": "Career",
-                    "object_type": "Course"
-                })
-
-    return triples
-
-
-def save_linked_triples(
-    triples: List[Dict[str, str]],
-    output_path: str
-) -> None:
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(triples, file, indent=4, ensure_ascii=False)
-
-    print(f"Saved linked triples: {output_path}")
+    return results

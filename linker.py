@@ -25,12 +25,12 @@ def get_best_match_score(
 
 
 def find_courses_for_skill(
-    skill: str,
+    skill_title: str,
     course_jsons: List[Dict[str, Any]],
     similarity_threshold: float,
 ) -> List[str]:
     """Returns a list of course codes whose syllabus matches the skill above threshold."""
-    skill_embedding = model.encode(skill, convert_to_tensor=True)
+    skill_embedding = model.encode(skill_title, convert_to_tensor=True)
     course_list = []
     for course_data in course_jsons:
         course_code = course_data.get("course_code", "").replace(" ", "").upper()
@@ -43,13 +43,16 @@ def find_courses_for_skill(
 
 
 def build_skill_course_map(
-    skills: List[str],
+    skills: List[Dict[str, Any]],
     course_jsons: List[Dict[str, Any]],
     similarity_threshold: float,
-) -> Dict[str, List[str]]:
-    """Builds {skill: [course_codes]} dict for a list of skills."""
+) -> Dict[str, Dict]:
+    """Builds {skill_id: {"title": ..., "courses": [course_codes]}} dict."""
     return {
-        skill.strip().title(): find_courses_for_skill(skill, course_jsons, similarity_threshold)
+        skill["id"]: {
+            "title": skill["title"],
+            "courses": find_courses_for_skill(skill["title"], course_jsons, similarity_threshold)
+        }
         for skill in skills
     }
 
@@ -59,19 +62,18 @@ def build_career_course_links(
     course_jsons: List[Dict[str, Any]],
     similarity_threshold: float = 0.5,
 ) -> List[Dict[str, Any]]:
-
+    """Builds a list of career-skill-course linkages using semantic similarity."""
     results = []
     for career_data in careers:
-        career = career_data.get("career", "").strip()
-        skills = career_data.get("topics", [])
+        career_id = career_data.get("id", "")
+        career = career_data.get("mainLabel", "").strip()
+        skills = career_data.get("skills", [])
         if not career or not skills:
             continue
-
         skill_course_map = build_skill_course_map(skills, course_jsons, similarity_threshold)
-
         results.append({
+            "career_id": career_id,
             "career": career,
             "skill_course_map": skill_course_map
         })
-
     return results

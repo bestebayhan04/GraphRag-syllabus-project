@@ -10,7 +10,7 @@ def main():
     args = parser.parse_args()
 
     download_all()
-    careers = read_career_files()
+    careers = read_career_files() 
     courses = read_course_file()
 
     if args.build_links:

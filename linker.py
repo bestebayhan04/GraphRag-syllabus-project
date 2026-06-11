@@ -1,8 +1,8 @@
 from typing import Any, Dict, List
-from sentence_transformers import SentenceTransformer, util
+from sentence_transformers import util
+from embeddings.py import model
 
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def get_course_texts(course_data: Dict[str, Any]) -> List[str]:
     """Flattens all learning outcomes and topics from a syllabus into a single list."""

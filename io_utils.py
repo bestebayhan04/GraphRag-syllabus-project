@@ -36,7 +36,6 @@ def convert_to_triples(results: List[Dict[str, Any]]) -> List[Dict[str, str]]:
     for result in results:
         career = result["career"]
         skill_course_map = result["skill_course_map"]
-        linked_courses = result["linked_courses"]
 
         for skill, courses in skill_course_map.items():
             triples.append({
@@ -55,13 +54,5 @@ def convert_to_triples(results: List[Dict[str, Any]]) -> List[Dict[str, str]]:
                     "object_type": "Course"
                 })
 
-        for course in linked_courses:
-            triples.append({
-                "subject": career,
-                "relation": "RECOMMENDED_COURSE",
-                "object": course,
-                "subject_type": "Career",
-                "object_type": "Course"
-            })
 
     return triples

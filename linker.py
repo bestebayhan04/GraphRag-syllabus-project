@@ -54,24 +54,10 @@ def build_skill_course_map(
     }
 
 
-def filter_linked_courses(
-    skill_course_map: Dict[str, List[str]],
-    coverage_threshold: float,
-) -> List[str]:
-    """Returns courses that appear in enough skills to meet the coverage threshold."""
-    total_skills = len(skill_course_map)
-    all_courses = {course for courses in skill_course_map.values() for course in courses}
-    return [
-        course for course in all_courses
-        if sum(1 for courses in skill_course_map.values() if course in courses) / total_skills >= coverage_threshold
-    ]
-
-
 def build_career_course_links(
     careers: List[Dict[str, Any]],
     course_jsons: List[Dict[str, Any]],
     similarity_threshold: float = 0.5,
-    coverage_threshold: float = 0.3,
 ) -> List[Dict[str, Any]]:
 
     results = []
@@ -82,12 +68,10 @@ def build_career_course_links(
             continue
 
         skill_course_map = build_skill_course_map(skills, course_jsons, similarity_threshold)
-        linked_courses = filter_linked_courses(skill_course_map, coverage_threshold)
 
         results.append({
             "career": career,
-            "skill_course_map": skill_course_map,
-            "linked_courses": linked_courses,
+            "skill_course_map": skill_course_map
         })
 
     return results

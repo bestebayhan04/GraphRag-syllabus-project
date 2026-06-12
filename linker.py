@@ -1,8 +1,17 @@
 from typing import Any, Dict, List
 from sentence_transformers import util
 from embeddings import model
+import json
+from pathlib import Path
 
+OUTPUT_DIR = Path(__file__).resolve().parent / "outputs" / "triplets"
 
+def save_triples(triples: List[Dict[str, str]], output_dir: Path = OUTPUT_DIR) -> None:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / "triples.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(triples, f, indent=2)
+    print(f"Saved {len(triples)} triples to {output_path}")
 
 def get_course_texts(course_data: Dict[str, Any]) -> List[str]:
     """Flattens all learning outcomes and topics from a syllabus into a single list."""
@@ -126,5 +135,5 @@ def convert_to_triples(
             continue
         for prereq in course.get("prerequisites", []):
             add(course_code, "PREREQ", prereq, "Course", "Course")
-
+    save_triples(triples)
     return triples

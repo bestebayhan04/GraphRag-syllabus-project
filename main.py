@@ -15,7 +15,7 @@ def main():
 
     if args.build_links:
         results = build_career_course_links(careers, courses)
-        triples = convert_to_triples(results)
+        triples = convert_to_triples(results, courses)
 
     if args.build_graph:
         pass

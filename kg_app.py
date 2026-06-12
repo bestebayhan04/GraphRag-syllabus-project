@@ -79,8 +79,8 @@ def get_ordered_curriculum(minimal_set, uri, auth):
         return "Error: Circular dependency detected in your course requirements."
 
 
-def solve_min_courses_by_course(title):
-    driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "kg_project"))
+def solve_min_courses_by_course(title, uri, auth):
+    driver = GraphDatabase.driver(uri, auth=auth)
     
     # 1. Fetch data: For each course, what skills does it cover that are required by the occupation?
     query = """
@@ -137,7 +137,7 @@ if __name__ == "__main__":
         title = occ
 
         # find the minimum number of courses covering the skills
-        selected_courses = solve_min_courses_by_course(title)
+        selected_courses = solve_min_courses_by_course(title, uri, auth)
 
         ordered_curriculum = get_ordered_curriculum(selected_courses, uri, auth)
 

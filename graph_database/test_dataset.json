@@ -2,44 +2,561 @@
   "nodes": {
     "courses": [
       {
-        "source file": "cs101.pdf",
         "course code": "CS101",
-        "course title": "Intro to Programming",
-        "topics": ["Variables", "Loops", "Functions"],
-        "learning outcomes": ["Write basic scripts", "Understand logic"]
+        "course title": "Title CS101",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
       },
       {
-        "source file": "cs201.pdf",
-        "course code": "CS201",
-        "course title": "Data Structures",
-        "topics": ["Arrays", "Linked Lists"],
-        "learning outcomes": ["Analyze algorithm complexity"]
+        "course code": "CS102",
+        "course title": "Title CS102",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS103",
+        "course title": "Title CS103",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS104",
+        "course title": "Title CS104",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS105",
+        "course title": "Title CS105",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS106",
+        "course title": "Title CS106",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS107",
+        "course title": "Title CS107",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS108",
+        "course title": "Title CS108",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS109",
+        "course title": "Title CS109",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS110",
+        "course title": "Title CS110",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS111",
+        "course title": "Title CS111",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS112",
+        "course title": "Title CS112",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS113",
+        "course title": "Title CS113",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS114",
+        "course title": "Title CS114",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS115",
+        "course title": "Title CS115",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS116",
+        "course title": "Title CS116",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS117",
+        "course title": "Title CS117",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS118",
+        "course title": "Title CS118",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS119",
+        "course title": "Title CS119",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
+      },
+      {
+        "course code": "CS120",
+        "course title": "Title CS120",
+        "source file": "f.pdf",
+        "topics": [],
+        "learning outcomes": []
       }
     ],
     "occupations": [
       {
-        "id": "SWE_01",
-        "title": "Software Engineer",
-        "alternative titles": ["Developer", "Programmer"],
-        "description": "Design and build software applications."
+        "id": "OCC_1",
+        "title": "Occupation 1",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_2",
+        "title": "Occupation 2",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_3",
+        "title": "Occupation 3",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_4",
+        "title": "Occupation 4",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_5",
+        "title": "Occupation 5",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_6",
+        "title": "Occupation 6",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_7",
+        "title": "Occupation 7",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_8",
+        "title": "Occupation 8",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_9",
+        "title": "Occupation 9",
+        "alternative titles": [],
+        "description": ""
+      },
+      {
+        "id": "OCC_10",
+        "title": "Occupation 10",
+        "alternative titles": [],
+        "description": ""
       }
     ],
     "skills": [
       {
-        "id": "SK_PYTHON",
-        "title": "Python Programming"
+        "id": "SK_1",
+        "title": "Skill 1"
       },
       {
-        "id": "SK_DSA",
-        "title": "Data Structures & Algorithms"
+        "id": "SK_2",
+        "title": "Skill 2"
+      },
+      {
+        "id": "SK_3",
+        "title": "Skill 3"
+      },
+      {
+        "id": "SK_4",
+        "title": "Skill 4"
+      },
+      {
+        "id": "SK_5",
+        "title": "Skill 5"
+      },
+      {
+        "id": "SK_6",
+        "title": "Skill 6"
+      },
+      {
+        "id": "SK_7",
+        "title": "Skill 7"
+      },
+      {
+        "id": "SK_8",
+        "title": "Skill 8"
+      },
+      {
+        "id": "SK_9",
+        "title": "Skill 9"
+      },
+      {
+        "id": "SK_10",
+        "title": "Skill 10"
+      },
+      {
+        "id": "SK_11",
+        "title": "Skill 11"
+      },
+      {
+        "id": "SK_12",
+        "title": "Skill 12"
+      },
+      {
+        "id": "SK_13",
+        "title": "Skill 13"
+      },
+      {
+        "id": "SK_14",
+        "title": "Skill 14"
+      },
+      {
+        "id": "SK_15",
+        "title": "Skill 15"
+      },
+      {
+        "id": "SK_16",
+        "title": "Skill 16"
+      },
+      {
+        "id": "SK_17",
+        "title": "Skill 17"
+      },
+      {
+        "id": "SK_18",
+        "title": "Skill 18"
+      },
+      {
+        "id": "SK_19",
+        "title": "Skill 19"
+      },
+      {
+        "id": "SK_20",
+        "title": "Skill 20"
       }
     ]
   },
   "edges": [
-    ["CS101", "CS201", "prereq"],
-    ["CS101", "SK_PYTHON", "covers"],
-    ["CS201", "SK_DSA", "covers"],
-    ["SWE_01", "SK_PYTHON", "requires"],
-    ["SWE_01", "SK_DSA", "requires"]
+    [
+      "CS120",
+      "CS113",
+      "COREQ"
+    ],
+    [
+      "CS120",
+      "CS112",
+      "COREQ"
+    ],
+    [
+      "CS114",
+      "CS104",
+      "COREQ"
+    ],
+    [
+      "CS106",
+      "CS104",
+      "PREREQ"
+    ],
+    [
+      "CS112",
+      "CS106",
+      "PREREQ"
+    ],
+    [
+      "CS116",
+      "CS113",
+      "COREQ"
+    ],
+    [
+      "CS115",
+      "CS103",
+      "COREQ"
+    ],
+    [
+      "CS110",
+      "CS109",
+      "COREQ"
+    ],
+    [
+      "CS120",
+      "CS101",
+      "COREQ"
+    ],
+    [
+      "CS112",
+      "CS101",
+      "COREQ"
+    ],
+    [
+      "CS118",
+      "CS114",
+      "PREREQ"
+    ],
+    [
+      "CS120",
+      "CS118",
+      "PREREQ"
+    ],
+    [
+      "CS119",
+      "CS113",
+      "COREQ"
+    ],
+    [
+      "CS117",
+      "CS110",
+      "PREREQ"
+    ],
+    [
+      "CS114",
+      "SK_20",
+      "COVERS"
+    ],
+    [
+      "CS103",
+      "SK_2",
+      "COVERS"
+    ],
+    [
+      "CS118",
+      "SK_12",
+      "COVERS"
+    ],
+    [
+      "CS119",
+      "SK_13",
+      "COVERS"
+    ],
+    [
+      "CS102",
+      "SK_20",
+      "COVERS"
+    ],
+    [
+      "CS114",
+      "SK_13",
+      "COVERS"
+    ],
+    [
+      "CS107",
+      "SK_8",
+      "COVERS"
+    ],
+    [
+      "CS101",
+      "SK_12",
+      "COVERS"
+    ],
+    [
+      "CS116",
+      "SK_15",
+      "COVERS"
+    ],
+    [
+      "CS115",
+      "SK_16",
+      "COVERS"
+    ],
+    [
+      "CS110",
+      "SK_15",
+      "COVERS"
+    ],
+    [
+      "CS110",
+      "SK_5",
+      "COVERS"
+    ],
+    [
+      "CS108",
+      "SK_17",
+      "COVERS"
+    ],
+    [
+      "CS114",
+      "SK_6",
+      "COVERS"
+    ],
+    [
+      "CS116",
+      "SK_2",
+      "COVERS"
+    ],
+    [
+      "CS117",
+      "SK_15",
+      "COVERS"
+    ],
+    [
+      "CS102",
+      "SK_13",
+      "COVERS"
+    ],
+    [
+      "CS117",
+      "SK_4",
+      "COVERS"
+    ],
+    [
+      "CS107",
+      "SK_18",
+      "COVERS"
+    ],
+    [
+      "CS117",
+      "SK_2",
+      "COVERS"
+    ],
+    [
+      "OCC_9",
+      "SK_14",
+      "REQUIRES"
+    ],
+    [
+      "OCC_8",
+      "SK_17",
+      "REQUIRES"
+    ],
+    [
+      "OCC_3",
+      "SK_12",
+      "REQUIRES"
+    ],
+    [
+      "OCC_10",
+      "SK_9",
+      "REQUIRES"
+    ],
+    [
+      "OCC_10",
+      "SK_8",
+      "REQUIRES"
+    ],
+    [
+      "OCC_4",
+      "SK_19",
+      "REQUIRES"
+    ],
+    [
+      "OCC_2",
+      "SK_15",
+      "REQUIRES"
+    ],
+    [
+      "OCC_2",
+      "SK_12",
+      "REQUIRES"
+    ],
+    [
+      "OCC_9",
+      "SK_19",
+      "REQUIRES"
+    ],
+    [
+      "OCC_8",
+      "SK_3",
+      "REQUIRES"
+    ],
+    [
+      "OCC_10",
+      "SK_1",
+      "REQUIRES"
+    ],
+    [
+      "OCC_6",
+      "SK_15",
+      "REQUIRES"
+    ],
+    [
+      "OCC_5",
+      "SK_12",
+      "REQUIRES"
+    ],
+    [
+      "OCC_9",
+      "SK_18",
+      "REQUIRES"
+    ],
+    [
+      "OCC_1",
+      "SK_13",
+      "REQUIRES"
+    ],
+    [
+      "OCC_5",
+      "SK_2",
+      "REQUIRES"
+    ],
+    [
+      "OCC_3",
+      "SK_16",
+      "REQUIRES"
+    ],
+    [
+      "OCC_7",
+      "SK_15",
+      "REQUIRES"
+    ],
+    [
+      "OCC_9",
+      "SK_16",
+      "REQUIRES"
+    ],
+    [
+      "OCC_1",
+      "SK_2",
+      "REQUIRES"
+    ]
   ]
 }

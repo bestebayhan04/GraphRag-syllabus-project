@@ -1,6 +1,6 @@
 import argparse
 from read_data import download_all, read_career_files, read_course_file
-from linker import build_career_course_links
+from linker import build_career_course_links, convert_to_triples
 
 def main():
     parser = argparse.ArgumentParser()
@@ -16,7 +16,6 @@ def main():
     if args.build_links:
         results = build_career_course_links(careers, courses)
         triples = convert_to_triples(results)
-        save_results(triples, OUTPUT_PATH)
 
     if args.build_graph:
         pass

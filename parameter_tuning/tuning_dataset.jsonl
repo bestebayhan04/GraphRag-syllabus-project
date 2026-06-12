@@ -1,0 +1,87 @@
+{"skill_id": "8b94aa1e-89c9-459d-b3b4-1dfab8dec2df", "skill_title": "use software libraries", "course_code": "CS204", "label": 1}
+{"skill_id": "83b33952-3872-46ec-9a2e-b28f91303a7e", "skill_title": "oversee development of software", "course_code": "CS204", "label": 0}
+{"skill_id": "a0bf9b9d-e53f-418c-a839-5d99eff718fe", "skill_title": "conduct search engine optimisation", "course_code": "CS204", "label": 0}
+{"skill_id": "2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1", "skill_title": "debug software", "course_code": "CS201", "label": 1}
+{"skill_id": "4716cfae-b08c-40c8-80c6-f1fbbf748ed8", "skill_title": "utilise computer-aided software engineering tools", "course_code": "CS201", "label": 0}
+{"skill_id": "6195c5f7-a4fb-425d-a3dd-c4467c4471a3", "skill_title": "deploy cloud resource", "course_code": "CS201", "label": 0}
+{"skill_id": "2b7a79e5-84d8-4880-be66-3d9bb05bea17", "skill_title": "use software design patterns", "course_code": "CS308", "label": 1}
+{"skill_id": "a80fb090-63f4-4b05-83a5-2f090deb7757", "skill_title": "manage data collection systems", "course_code": "CS308", "label": 0}
+{"skill_id": "2de4572a-4724-4f76-afc2-72a568a264ac", "skill_title": "speak different languages", "course_code": "CS308", "label": 0}
+{"skill_id": "47a49cd6-097d-457a-9f7b-c290c14930d5", "skill_title": "analyse big data", "course_code": "CS300", "label": 1}
+{"skill_id": "8316979b-df5a-4dc7-98ef-61ec6a10df84", "skill_title": "conduct quantitative research", "course_code": "CS300", "label": 0}
+{"skill_id": "fa642fc3-5cc5-41cf-8926-6617a8b976a7", "skill_title": "promote the participation of citizens in scientific and research activities", "course_code": "CS300", "label": 0}
+{"skill_id": "7adb8473-bcc6-4ff8-9850-76d945d40092", "skill_title": "analyse ict(information and communication technology) system", "course_code": "CS301", "label": 1}
+{"skill_id": "9ff9db9d-d14b-426e-83f3-e7449af6c79f", "skill_title": "manage data", "course_code": "CS301", "label": 0}
+{"skill_id": "e5beeff8-7c98-490a-ae2c-16fbb6a87305", "skill_title": "manage keys for data protection", "course_code": "CS301", "label": 0}
+{"skill_id": "31c69100-b612-4a61-8db5-fd314318854c", "skill_title": "execute analytical mathematical calculations", "course_code": "CS303", "label": 1}
+{"skill_id": "f28617ad-afdd-4041-814c-216153a38998", "skill_title": "analyse software specifications", "course_code": "CS303", "label": 0}
+{"skill_id": "64e09849-a7db-4d6b-a932-66264420eb97", "skill_title": "apply social media marketing", "course_code": "CS303", "label": 0}
+{"skill_id": "fbafa41f-cd05-4109-a649-8b44d306d779", "skill_title": "create data models", "course_code": "CS306", "label": 1}
+{"skill_id": "733f66e2-7bfa-4f8e-8f87-201ce50ffc29", "skill_title": "implement cloud security and compliance", "course_code": "CS306", "label": 0}
+{"skill_id": "4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca", "skill_title": "develop computer vision system", "course_code": "CS306", "label": 0}
+{"skill_id": "fd33c66c-70c4-40e6-b87c-5495bd3bf26e", "skill_title": "design user interface", "course_code": "CS310", "label": 1}
+{"skill_id": "7e796b51-49d7-4e73-95af-2e7323763f15", "skill_title": "design database in the cloud", "course_code": "CS310", "label": 0}
+{"skill_id": "2de4572a-4724-4f76-afc2-72a568a264ac", "skill_title": "speak different languages", "course_code": "CS310", "label": 0}
+{"skill_id": "9a58cd26-58eb-4a1c-b1b6-64037fe9cfa1", "skill_title": "think abstractly", "course_code": "CS302", "label": 1}
+{"skill_id": "022dc430-872a-473a-9cf4-fed4895e58ad", "skill_title": "define database physical structure", "course_code": "CS302", "label": 0}
+{"skill_id": "93b22bbf-ece1-4e2d-8d47-0c9392c5a4fd", "skill_title": "develop blockchain technology", "course_code": "CS302", "label": 0}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "DSA210", "label": 1}
+{"skill_id": "6a899482-8bcf-40ca-ae67-579a1cc467ab", "skill_title": "manage engineering project", "course_code": "DSA210", "label": 0}
+{"skill_id": "0a52bed5-fd29-45fb-aba6-e32bccfda1c1", "skill_title": "plan migration to cloud", "course_code": "DSA210", "label": 0}
+{"skill_id": "85616cc4-98bf-4355-9cf1-72ff11752848", "skill_title": "develop ict(information and communication technology) device driver", "course_code": "CS307", "label": 1}
+{"skill_id": "4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca", "skill_title": "develop computer vision system", "course_code": "CS307", "label": 0}
+{"skill_id": "2de4572a-4724-4f76-afc2-72a568a264ac", "skill_title": "speak different languages", "course_code": "CS307", "label": 0}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "CS528/DSA428", "label": 1}
+{"skill_id": "611ed16b-99bf-4840-9cab-f55d1d286e0a", "skill_title": "store digital data and systems", "course_code": "CS528/DSA428", "label": 0}
+{"skill_id": "2de4572a-4724-4f76-afc2-72a568a264ac", "skill_title": "speak different languages", "course_code": "CS528/DSA428", "label": 0}
+{"skill_id": "47a49cd6-097d-457a-9f7b-c290c14930d5", "skill_title": "analyse big data", "course_code": "DSA440/CS540", "label": 1}
+{"skill_id": "fbafa41f-cd05-4109-a649-8b44d306d779", "skill_title": "create data models", "course_code": "DSA440/CS540", "label": 0}
+{"skill_id": "541561bc-510c-4a99-881c-2d8bf5a85462", "skill_title": "use technical drawing software", "course_code": "DSA440/CS540", "label": 0}
+{"skill_id": "c3e36d05-8ae8-447f-bb2b-6f9409f85389", "skill_title": "deliver visual presentation of data", "course_code": "DSA301", "label": 1}
+{"skill_id": "dfff95c6-9758-4c04-a228-7eaa88dec6cd", "skill_title": "design for organisational complexity", "course_code": "DSA301", "label": 0}
+{"skill_id": "2de4572a-4724-4f76-afc2-72a568a264ac", "skill_title": "speak different languages", "course_code": "DSA301", "label": 0}
+{"skill_id": "2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f", "skill_title": "perform data analysis", "course_code": "DSA201", "label": 1}
+{"skill_id": "4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca", "skill_title": "develop computer vision system", "course_code": "DSA201", "label": 0}
+{"skill_id": "e8171178-9a60-40a6-ad3b-510e10cfebad", "skill_title": "render 3d images", "course_code": "DSA201", "label": 0}
+{"skill_id": "f0163b63-6794-4eb7-b17b-f91d11b2602d", "skill_title": "implement cryptographic constructs", "course_code": "CS411/CS507", "label": 1}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "CS411/CS507", "label": 0}
+{"skill_id": "64e09849-a7db-4d6b-a932-66264420eb97", "skill_title": "apply social media marketing", "course_code": "CS411/CS507", "label": 0}
+{"skill_id": "e8171178-9a60-40a6-ad3b-510e10cfebad", "skill_title": "render 3d images", "course_code": "CS405", "label": 1}
+{"skill_id": "4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca", "skill_title": "develop computer vision system", "course_code": "CS405", "label": 0}
+{"skill_id": "64852ade-6ae1-4760-ba4a-976bf07ca255", "skill_title": "manage disaster recovery plans", "course_code": "CS405", "label": 0}
+{"skill_id": "31c69100-b612-4a61-8db5-fd314318854c", "skill_title": "execute analytical mathematical calculations", "course_code": "CS407/CS503", "label": 1}
+{"skill_id": "f9670490-8aa4-4540-b121-d440a8294aab", "skill_title": "develop data processing applications", "course_code": "CS407/CS503", "label": 0}
+{"skill_id": "2de4572a-4724-4f76-afc2-72a568a264ac", "skill_title": "speak different languages", "course_code": "CS407/CS503", "label": 0}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "CS445", "label": 1}
+{"skill_id": "84f58e3d-8669-4d83-8c1d-5dd1e73a654f", "skill_title": "create database diagrams", "course_code": "CS445", "label": 0}
+{"skill_id": "85616cc4-98bf-4355-9cf1-72ff11752848", "skill_title": "develop ict(information and communication technology) device driver", "course_code": "CS445", "label": 0}
+{"skill_id": "fd33c66c-70c4-40e6-b87c-5495bd3bf26e", "skill_title": "design user interface", "course_code": "CS449/CS549", "label": 1}
+{"skill_id": "6c08403c-a5bb-4868-b8c2-b7d039c0e511", "skill_title": "design database scheme", "course_code": "CS449/CS549", "label": 0}
+{"skill_id": "2de4572a-4724-4f76-afc2-72a568a264ac", "skill_title": "speak different languages", "course_code": "CS449/CS549", "label": 0}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "CS455/CS555", "label": 1}
+{"skill_id": "01d269d9-b058-4d6c-82a0-3779af9a124b", "skill_title": "develop blockchain innovative architectures", "course_code": "CS455/CS555", "label": 0}
+{"skill_id": "69cfc5ed-6569-4aca-a4cc-fd782ba51d9c", "skill_title": "implement ict(information and communication technology) risk management", "course_code": "CS455/CS555", "label": 0}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "CS512", "label": 1}
+{"skill_id": "4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca", "skill_title": "develop computer vision system", "course_code": "CS512", "label": 0}
+{"skill_id": "ac516e9b-8bfa-4b72-8e3e-340b0a3a51d5", "skill_title": "manage content development projects", "course_code": "CS512", "label": 0}
+{"skill_id": "4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca", "skill_title": "develop computer vision system", "course_code": "CS515", "label": 1}
+{"skill_id": "505e4ef3-7ce4-437d-b7b4-5c608f71c258", "skill_title": "build recommender systems", "course_code": "CS515", "label": 0}
+{"skill_id": "0a43729f-2a79-4dae-9faa-95520daae79f", "skill_title": "apply company policies", "course_code": "CS515", "label": 0}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "CS58010", "label": 1}
+{"skill_id": "505e4ef3-7ce4-437d-b7b4-5c608f71c258", "skill_title": "build recommender systems", "course_code": "CS58010", "label": 0}
+{"skill_id": "2de4572a-4724-4f76-afc2-72a568a264ac", "skill_title": "speak different languages", "course_code": "CS58010", "label": 0}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "CS404", "label": 1}
+{"skill_id": "fbafa41f-cd05-4109-a649-8b44d306d779", "skill_title": "create data models", "course_code": "CS404", "label": 0}
+{"skill_id": "4a193795-fa63-414e-9f2e-bfdb3924571e", "skill_title": "handle data samples", "course_code": "CS404", "label": 0}
+{"skill_id": "f0163b63-6794-4eb7-b17b-f91d11b2602d", "skill_title": "implement cryptographic constructs", "course_code": "CS432/CS532", "label": 1}
+{"skill_id": "8b94aa1e-89c9-459d-b3b4-1dfab8dec2df", "skill_title": "use software libraries", "course_code": "CS432/CS532", "label": 0}
+{"skill_id": "fa642fc3-5cc5-41cf-8926-6617a8b976a7", "skill_title": "promote the participation of citizens in scientific and research activities", "course_code": "CS432/CS532", "label": 0}
+{"skill_id": "8369c2d6-c100-4cf6-bd83-9668d8678433", "skill_title": "utilise machine learning", "course_code": "CS412", "label": 1}
+{"skill_id": "6c08403c-a5bb-4868-b8c2-b7d039c0e511", "skill_title": "design database scheme", "course_code": "CS412", "label": 0}
+{"skill_id": "0af062de-eb43-41e9-9b96-249e2cd22d26", "skill_title": "use markup languages", "course_code": "CS412", "label": 0}
+{"skill_id": "2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1", "skill_title": "debug software", "course_code": "CS460/CS560", "label": 1}
+{"skill_id": "8b94aa1e-89c9-459d-b3b4-1dfab8dec2df", "skill_title": "use software libraries", "course_code": "CS460/CS560", "label": 0}
+{"skill_id": "cbe2c304-1e7d-489a-97d9-a7d3e37a9db6", "skill_title": "apply ict(information and communication technology) systems theory", "course_code": "CS460/CS560", "label": 0}
+{"skill_id": "9190d87f-9792-42e0-bb7f-64294a656bcd", "skill_title": "monitor system performance", "course_code": "CS401", "label": 1}
+{"skill_id": "cbe2c304-1e7d-489a-97d9-a7d3e37a9db6", "skill_title": "apply ict(information and communication technology) systems theory", "course_code": "CS401", "label": 0}
+{"skill_id": "57231a22-4da7-49c8-97b8-75672feadf1e", "skill_title": "manage quantitative data", "course_code": "CS401", "label": 0}

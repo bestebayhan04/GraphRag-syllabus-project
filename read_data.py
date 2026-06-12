@@ -1,13 +1,15 @@
 import os
 import json
 import gdown
-
+from pathlib import Path
 
 CAREER_FOLDER_ID = "1ZV4tmZZcuKZ_prQJTIcYXyKTnrTgir_3"
 COURSE_FILE_ID = "1rjBi0iNx9tzXgRvJDOyC5cxpFxt25jG8"
 
-CAREER_DATA_DIR = "data/careers"
-COURSE_FILE_PATH = "data/courses/scripts.json"
+BASE_DIR = Path(__file__).resolve().parent
+
+CAREER_DATA_DIR = BASE_DIR / "data" / "careers"
+COURSE_FILE_PATH = BASE_DIR / "data" / "courses" / "scripts.json"
 
 
 def download_folder(folder_id: str, output_dir: str):

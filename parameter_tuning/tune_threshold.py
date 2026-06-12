@@ -1,11 +1,14 @@
 import sys
 import json
 from sklearn.metrics import f1_score, precision_score, recall_score
+from sentence_transformers import util
 from pathlib import Path
-sys.path.append("..")
-from linker import get_best_match_score
-from embeddings import model
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.append(str(PROJECT_ROOT))
+
+from linker import get_course_texts
+from embeddings import model
 
 TUNING_DATA_PATH = Path(__file__).parent / "tuning_dataset.jsonl"
 
@@ -18,22 +21,25 @@ def load_tuning_data():
     return data
 
 
-def compute_scores(tuning_data, course_jsons):
-    """Precompute similarity score for each (skill, course) pair."""
+def precompute_course_embeddings(course_index):
+    return {
+        code: model.encode(get_course_texts(course), convert_to_tensor=True)
+        for code, course in course_index.items()
+    }
+
+
+def compute_scores(tuning_data, course_embeddings):
     results = []
     for entry in tuning_data:
-        skill_embedding = model.encode(entry["skill_title"], convert_to_tensor=True)                  # entry
-        score = get_best_match_score(skill_embedding, course_jsons[entry["course_code"]])             # entry
-        results.append({
-            "score": score,
-            "label": entry["label"]                                                                    # entry
-        })
+        skill_embedding = model.encode(entry["skill_title"], convert_to_tensor=True)
+        course_emb = course_embeddings[entry["course_code"]]
+        score = float(util.cos_sim(skill_embedding, course_emb)[0].max())
+        results.append({"score": score, "label": entry["label"]})
     return results
 
 
 def tune_threshold(scored_data):
     candidate_thresholds = sorted(set(d["score"] for d in scored_data))
-    
     best_f1 = 0
     best_threshold = 0
     rows = []
@@ -63,9 +69,8 @@ if __name__ == "__main__":
     from read_data import download_all, read_course_file
     download_all()
     courses = read_course_file()
-
     course_index = {c["course_code"]: c for c in courses}
-
     tuning_data = load_tuning_data()
-    scored_data = compute_scores(tuning_data, course_index)
+    course_embeddings = precompute_course_embeddings(course_index)
+    scored_data = compute_scores(tuning_data, course_embeddings)
     best_threshold = tune_threshold(scored_data)

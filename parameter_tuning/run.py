@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     # Step 1: build exploration map
     print("=== Step 1: Exploring links ===")
-    exploration_map = build_exploration_map(careers, courses, threshold=0.3)
+    exploration_map = build_exploration_map(careers, courses, threshold=0.4)
     save_exploration_map(exploration_map)
 
     # Step 2: label with LLM

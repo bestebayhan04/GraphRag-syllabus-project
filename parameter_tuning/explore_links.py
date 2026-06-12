@@ -10,7 +10,7 @@ from read_data import read_career_files, read_course_file, download_all
 from linker import get_best_match_score
 from embeddings import model
 
-THRESHOLD = 0.2
+THRESHOLD = 0.45
 OUTPUT_PATH = Path(__file__).parent / "exploration_results.json"
 
 
@@ -45,10 +45,12 @@ def build_exploration_map(careers, courses, threshold):
                 matched.append({sid: all_skills[sid]})
             else:
                 unmatched[sid] = all_skills[sid]
+        
+        print("matched",len(matched), "unmatched", len(unmatched))
 
         n_soft = max(1, len(matched) // 2)
         soft_neg_ids = random.sample(list(unmatched.keys()), min(n_soft, len(unmatched)))
-        soft_negatives = [{sid: unmatched[sid]} for sid in soft_neg_ids]
+        soft_negatives = [{neg_id: unmatched[neg_id]} for neg_id in soft_neg_ids]
 
         exploration_map[course_code] = {
             "candidates": matched,

@@ -1,11 +1,13 @@
 import json
 from neo4j import GraphDatabase
 
-# Database connection details
-URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "kg_project")
+
 
 def import_data(file_path):
+    # Database connection details
+    URI = "bolt://localhost:7687"
+    AUTH = ("neo4j", "kg_project")
+
     with open(file_path, 'r') as f:
         data = json.load(f)
 
@@ -46,6 +48,3 @@ def import_data(file_path):
 
     driver.close()
     print("Import complete.")
-
-
-import_data("test_dataset.json")

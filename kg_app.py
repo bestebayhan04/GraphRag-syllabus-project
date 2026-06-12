@@ -1,6 +1,7 @@
 import pulp
 from neo4j import GraphDatabase
 import graphlib
+from find_career import find_best_career
 
 
 def get_relevant_curriculum(minimal_set, edges):
@@ -79,29 +80,29 @@ def get_ordered_curriculum(minimal_set, uri, auth):
         return "Error: Circular dependency detected in your course requirements."
 
 
-def solve_min_courses_by_course(title, uri, auth):
+def solve_min_courses_by_course(id, uri, auth):
     driver = GraphDatabase.driver(uri, auth=auth)
     
     # 1. Fetch data: For each course, what skills does it cover that are required by the occupation?
     query = """
-    MATCH (occ:Occupation {title: $occ_title})-[:REQUIRES]->(s:Skill)
+    MATCH (occ:Occupation {id: $occ_id})-[:REQUIRES]->(s:Skill)
     MATCH (c:Course)-[:COVERS]->(s)
     RETURN c.id AS course, collect(s.id) AS covered_skills
     """
     
     with driver.session() as session:
-        results = session.run(query, occ_title=title).data()
+        results = session.run(query, occ_id=id).data()
     
     # 2. Extract the Universe (all skills required by the occupation)
     required_skills_query = """
-    MATCH (occ:Occupation {title: $occ_title})-[:REQUIRES]->(s:Skill)
+    MATCH (occ:Occupation {id: $occ_id})-[:REQUIRES]->(s:Skill)
     WHERE EXISTS {
         MATCH (:Course)-[:COVERS]->(s)
     }
     RETURN collect(s.id) AS skills
     """
     with driver.session() as session:
-        required_skills = session.run(required_skills_query, occ_title=title).single()['skills']
+        required_skills = session.run(required_skills_query, occ_id=id).single()['skills']
 
     # 3. Model as Set Cover
     course_data = {r["course"]: set(r["covered_skills"]) for r in results}
@@ -134,10 +135,10 @@ if __name__ == "__main__":
             break
 
         # PLACEHOLDER: find the most similar title
-        title = occ
+        career_id = find_best_career(occ)["career_id"]
 
         # find the minimum number of courses covering the skills
-        selected_courses = solve_min_courses_by_course(title, uri, auth)
+        selected_courses = solve_min_courses_by_course(career_id, uri, auth)
 
         ordered_curriculum = get_ordered_curriculum(selected_courses, uri, auth)
 

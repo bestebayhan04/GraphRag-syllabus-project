@@ -5,10 +5,13 @@ from typing import Any, Dict
 from sentence_transformers import util
 from embeddings import model
 from read_data import download_file, BASE_DIR
+import os
 
 CAREER_LABELS_FILE_ID = "1fNzLErogljh4-p6IftUfhoLcJD6VCpL1"
-CAREER_LABELS_PATH = BASE_DIR / "data" / "career_labels.json"
-CAREER_EMBEDDINGS_PATH = BASE_DIR / "outputs" / "career_embeddings.pt"
+CAREER_LABELS_PATH = os.path.join(BASE_DIR, "data", "career_labels.json") # BASE_DIR / "data" / "career_labels.json"
+CAREER_EMBEDDINGS_PATH = os.path.join(BASE_DIR, "outputs", "career_embeddings.pt") # BASE_DIR / "outputs" / "career_embeddings.pt"
+# CAREER_LABELS_PATH = BASE_DIR / "data" / "career_labels.json"
+# CAREER_EMBEDDINGS_PATH = BASE_DIR / "outputs" / "career_embeddings.pt"
 
 
 def download_career_labels():

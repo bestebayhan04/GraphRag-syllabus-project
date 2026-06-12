@@ -3,8 +3,10 @@ from sentence_transformers import util
 from embeddings import model
 import json
 from pathlib import Path
+import os
 
-OUTPUT_DIR = Path(__file__).resolve().parent / "outputs" / "triplets"
+# OUTPUT_DIR = Path(__file__).resolve().parent / "outputs" / "triplets"
+OUTPUT_DIR = os.path.join(".", "outputs", "triplets") #Path(__file__).resolve().parent / "outputs" / "triplets"
 
 def save_triples(triples: List[Dict[str, str]], output_dir: Path = OUTPUT_DIR) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)

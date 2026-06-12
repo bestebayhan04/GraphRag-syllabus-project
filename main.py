@@ -2,6 +2,9 @@ import argparse
 from read_data import download_all, read_career_files, read_course_file
 from linker import build_career_course_links, convert_to_triples
 from find_career import embed_and_save_careers, download_career_labels
+from import_to_neo4j import import_data
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--build-links", action="store_true")
@@ -20,7 +23,7 @@ def main():
         triples = convert_to_triples(results, courses)
 
     if args.build_graph:
-        pass
+        import_data("graph_database/database.json")
 
     if args.evaluate:
         pass
